@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 from openff.qcsubmit.results import TorsionDriveResultCollection
-from openff.toolkit import ForceField
+from openff.toolkit import ForceField, Molecule
 
 
 def check_coverage():
@@ -13,13 +13,18 @@ def check_coverage():
     ff = ForceField(ff, allow_cosmetic_attributes=True)
     td_data = TorsionDriveResultCollection.parse_file(dataset)
 
-    print("converting dataset to records")
+    print("converting dataset to molecules")
+    td_data = [v for value in td_data.entries.values() for v in value]
+    molecules = [
+        Molecule.from_mapped_smiles(r.cmiles, allow_undefined_stereo=True)
+        for r in td_data
+    ]
+
     h = ff.get_parameter_handler("ProperTorsions")
-    records_and_molecules = td_data.to_records()
 
     print("labeling torsions")
     results = defaultdict(int)
-    for _, molecule in records_and_molecules:
+    for molecule in molecules:
         all_labels = ff.label_molecules(molecule.to_topology())[0]
         torsions = all_labels["ProperTorsions"]
         for torsion in torsions.values():
