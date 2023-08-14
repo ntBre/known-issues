@@ -6,6 +6,8 @@ from openff.toolkit import ForceField, Molecule
 
 def check_coverage():
     ff = "openff-2.1.0.offxml"
+    # from
+    # sage-2.1.0/inputs-and-outputs/data-sets/td-set-for-fitting-2.1.0.json
     dataset = "td-set-for-fitting-2.1.0.json"
     target = "t129"
 
