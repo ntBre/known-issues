@@ -1,8 +1,13 @@
+import json
 import logging
 from collections import defaultdict
+from typing import Union
 
 import click
-from openff.qcsubmit.results import TorsionDriveResultCollection
+from openff.qcsubmit.results import (
+    OptimizationResultCollection,
+    TorsionDriveResultCollection,
+)
 from openff.toolkit import ForceField, Molecule
 from rdkit.Chem.Draw import MolsToGridImage
 from rdkit.Chem.rdmolops import RemoveHs
@@ -54,6 +59,30 @@ def draw_rdkit(mol: Molecule, filename, smirks, show_all_hydrogens=True):
         out.write(png)
 
 
+def load_dataset(
+    dataset: str,
+) -> Union[OptimizationResultCollection, TorsionDriveResultCollection]:
+    """Peeks at the first entry of `dataset` to determine its type and
+    then loads it appropriately.
+
+    Raises a `TypeError` if the first entry is neither a `torsion`
+    record nor an `optimization` record.
+    """
+    with open(dataset, "r") as f:
+        j = json.load(f)
+    entries = j["entries"]
+    keys = entries.keys()
+    assert len(keys) == 1  # only handling this case for now
+    key = list(keys)[0]
+    match j["entries"][key][0]["type"]:
+        case "torsion":
+            return TorsionDriveResultCollection.parse_raw(j)
+        case "optimization":
+            return OptimizationResultCollection.parse_raw(j)
+        case t:
+            raise TypeError(f"Unknown result collection type: {t}")
+
+
 @click.command()
 @click.option("--target", required=True)
 @click.option("--force-field", default="openff-2.1.0.offxml")
@@ -75,13 +104,13 @@ def check_coverage(target, force_field, datasets):
     )
     for dataset in datasets:
         print("loading forcefield and dataset")
-        td_data = TorsionDriveResultCollection.parse_file(dataset)
+        data = load_dataset(dataset)
 
         print("converting dataset to molecules")
-        td_data = [v for value in td_data.entries.values() for v in value]
+        data = [v for value in data.entries.values() for v in value]
         molecules = [
             Molecule.from_mapped_smiles(r.cmiles, allow_undefined_stereo=True)
-            for r in td_data
+            for r in data
         ]
 
         h = ff.get_parameter_handler("ProperTorsions")
