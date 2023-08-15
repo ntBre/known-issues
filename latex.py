@@ -20,7 +20,6 @@ class Latex:
         self._buf.write(r"\end{document}")
 
     def add_image(self, filename: str, caption: str):
-        print(caption)
         self._buf.write(
             rf"""
 \begin{{figure}}[ht]
@@ -33,9 +32,7 @@ class Latex:
         for i in range(end):
             start = MAX_LEN * i
             end = MAX_LEN * (i + 1)
-            print(start, end)
             cap = caption[start:end]
-            print(i, cap)
             self._buf.write(rf"\verb|{cap}| ")
 
         # close the caption, end the figure
