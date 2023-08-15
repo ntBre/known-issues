@@ -1,10 +1,13 @@
 import logging
 from collections import defaultdict
 
+import click
 from openff.qcsubmit.results import TorsionDriveResultCollection
 from openff.toolkit import ForceField, Molecule
 from rdkit.Chem.Draw import rdDepictor, rdMolDraw2D
 from rdkit.Chem.rdmolops import RemoveHs
+
+from latex import Latex
 
 logging.getLogger("openff").setLevel(logging.ERROR)
 
@@ -28,25 +31,22 @@ def draw_rdkit(mol: Molecule, filename, show_all_hydrogens=True):
     drawer.WriteDrawingText(filename)
 
 
-def check_coverage():
-    ff_name = "openff-2.1.0.offxml"
-    target = "t129"
-
-    datasets = [
-        # from
-        # sage-2.1.0/inputs-and-outputs/data-sets/td-set-for-fitting-2.1.0.json
-        "td-set-for-fitting-2.1.0.json",
-        # from valence-fitting/02_curate-data/datasets/filtered-sage-td.json
-        # "filtered-sage-td.json",
-        # from valence-fitting/02_curate-data/datasets/filtered-td.json
-        # "filtered-td.json",
-    ]
+@click.command()
+@click.option("--target", required=True)
+@click.option("--force-field", default="openff-2.1.0.offxml")
+@click.option(
+    "--dataset",
+    "datasets",
+    multiple=True,
+    default=["datasets/td-set-for-fitting-2.1.0.json"],
+)
+def check_coverage(target, force_field, datasets):
     coverage = []
     involved_molecules = defaultdict(set)
 
     for dataset in datasets:
         print("loading forcefield and dataset")
-        ff = ForceField(ff_name, allow_cosmetic_attributes=True)
+        ff = ForceField(force_field, allow_cosmetic_attributes=True)
         td_data = TorsionDriveResultCollection.parse_file(dataset)
 
         print("converting dataset to molecules")
@@ -65,18 +65,24 @@ def check_coverage():
             torsions = all_labels["ProperTorsions"]
             for torsion in torsions.values():
                 results[torsion.id] += 1
-                involved_molecules[torsion.id].add(molecule.to_smiles())
+                involved_molecules[torsion.id].add(molecule)
 
         smirk = h.get_parameter(dict(id=target))[0].smirks
         coverage.append(f"{target:5}{results[target]:5}   {smirk}")
 
-    length = max([len(s) for s in datasets])
+    length = max([len(s) for s in dataset])
     print("Coverage:")
-    for ds, cover in zip(datasets, coverage):
+    for ds, cover in zip(dataset, coverage):
         print(f"{ds:<{length}s} {cover}")
 
+    out = Latex()
+    c = 0
     for m in involved_molecules[target]:
-        print(m)
+        filename = f"mol{c:02d}.png"
+        draw_rdkit(m, f"output/{filename}")
+        out.add_image(filename, caption=m.to_smiles())
+        c += 1
+    out.to_file("output/report.tex")
 
 
 if __name__ == "__main__":
