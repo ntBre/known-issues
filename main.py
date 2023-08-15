@@ -28,15 +28,29 @@ def draw_rdkit(mol: Molecule, filename, smirks, show_all_hydrogens=True):
             rdmol = RemoveHs(rdmol, updateExplicitCount=True)
         rdmols.append(rdmol)
 
+    BASE = 450
+    match len(rdmols):
+        case 1 | 2:
+            size = (BASE, BASE)
+            per_row = 1
+        case 3 | 4:
+            size = (BASE // 2, BASE // 2)
+            per_row = 2
+        case 5 | 6:
+            size = (BASE // 3, BASE // 3)
+            per_row = 3
+        case other:
+            raise TypeError(f"failed to match rdmol len {other}")
+
     png = MolsToGridImage(
         rdmols,
         highlightAtomLists=highlight_atom_lists,
-        subImgSize=(300, 300),
-        molsPerRow=1,
+        subImgSize=size,
+        molsPerRow=per_row,
         returnPNG=True,
     )
 
-    with open(filename, 'wb') as out:
+    with open(filename, "wb") as out:
         out.write(png)
 
 

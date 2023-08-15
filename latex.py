@@ -10,6 +10,7 @@ class Latex:
 
 \usepackage{graphicx}
 \usepackage{cprotect}
+\usepackage[margin=1in]{geometry}
 
 \begin{document}
 """
