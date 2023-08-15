@@ -30,10 +30,10 @@ def draw_rdkit(mol: Molecule, filename, smirks, show_all_hydrogens=True):
 
     BASE = 450
     match len(rdmols):
-        case 1 | 2:
+        case 1:
             size = (BASE, BASE)
             per_row = 1
-        case 3 | 4:
+        case 2 | 3 | 4:
             size = (BASE // 2, BASE // 2)
             per_row = 2
         case 5 | 6:
