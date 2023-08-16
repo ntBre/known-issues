@@ -19,6 +19,10 @@ ifdef DATA
     flags += --dataset $(subst $(comma),--dataset ,$(DATA))
 endif
 
+ifdef PLOT
+    flags += --plot-torsions
+endif
+
 TEXFLAGS = -output-directory=output -halt-on-error
 
 output/report.pdf: output/report.tex
@@ -34,4 +38,4 @@ output/report.tex: main.py latex.py
 
 help:
 	@echo Usage:
-	@echo 'make TARGET=TORSION_TARGET [FF=forcefield.offxml] [DATA="ds1,ds2,dsn"]'
+	@echo 'make TARGET=TORSION_TARGET [FF=forcefield.offxml] [DATA="ds1,ds2,dsn"] [PLOT=1]'

@@ -4,12 +4,17 @@ from collections import defaultdict
 from typing import Union
 
 import click
+import numpy as np
+from matplotlib import pyplot as plt
 from openff.qcsubmit.results import (
     OptimizationResultCollection,
     TorsionDriveResultCollection,
 )
 from openff.toolkit import ForceField, Molecule
-from rdkit.Chem.Draw import MolsToGridImage
+from openff.units import unit
+from qcportal.models.torsiondrive import TorsionDriveRecord
+from rdkit import Chem
+from rdkit.Chem.Draw import MolsToGridImage, rdDepictor, rdMolDraw2D
 from rdkit.Chem.rdmolops import RemoveHs
 
 from latex import Latex
@@ -31,6 +36,9 @@ def draw_rdkit(mol: Molecule, filename, smirks, show_all_hydrogens=True):
         rdmol = mol.to_rdkit()
         if not show_all_hydrogens:
             rdmol = RemoveHs(rdmol, updateExplicitCount=True)
+        rdDepictor.SetPreferCoordGen(True)
+        rdDepictor.Compute2DCoords(rdmol)
+        rdmol = rdMolDraw2D.PrepareMolForDrawing(rdmol)
         rdmols.append(rdmol)
 
     BASE = 450
@@ -76,25 +84,73 @@ def load_dataset(
     key = list(keys)[0]
     match j["entries"][key][0]["type"]:
         case "torsion":
-            return TorsionDriveResultCollection.parse_raw(j)
+            return TorsionDriveResultCollection.parse_file(dataset)
         case "optimization":
-            return OptimizationResultCollection.parse_raw(j)
+            return OptimizationResultCollection.parse_raw(dataset)
         case t:
             raise TypeError(f"Unknown result collection type: {t}")
+
+
+def plot_td_record(
+    record: TorsionDriveRecord, molecule: Molecule, filename: str
+):
+    """Plot a torsion drive record.
+
+    Adapted from Lily's plot-td-energy.ipynb
+    """
+
+    assert isinstance(record, TorsionDriveRecord)
+    assert len(record.keywords.dihedrals) == 1
+    assert isinstance(molecule, Molecule)
+    # get energies
+    energies = record.get_final_energies()
+    x = sorted(energies)
+    y = np.array([energies[x_] for x_ in x])
+    hartree = y * unit.hartree * unit.avogadro_constant
+    energy = hartree.m_as(unit.kilocalories_per_mole)
+    energy -= min(energy)
+
+    # get smiles and torsion specification
+    dihedrals = record.keywords.dihedrals[0]
+    rdmol = molecule.to_rdkit()
+    rwmol = Chem.RWMol(rdmol)
+    # label or remove atoms in reverse
+    for i in list(range(molecule.n_atoms))[::-1]:
+        if i in dihedrals:
+            rwmol.GetAtomWithIdx(i).SetAtomMapNum(i)
+        else:
+            rwmol.RemoveAtom(i)
+    torsion_smirks = Chem.MolToSmarts(rwmol)
+
+    # plot
+    fig, ax = plt.subplots(figsize=(4, 3))
+    ax.plot(x, energy)
+    ax.set_xlabel("Rotation (°)")
+    ax.set_ylabel("Relative energy [kcal mol$^{-1}$]")
+    ax.set_title(f"{torsion_smirks}")
+    plt.tight_layout()
+    plt.savefig(filename)
 
 
 @click.command()
 @click.option("--target", required=True)
 @click.option("--force-field", default="openff-2.1.0.offxml")
+@click.option("--plot-torsions", is_flag=True, default=False)
 @click.option(
     "--dataset",
     "datasets",
     multiple=True,
     default=["datasets/td-set-for-fitting-2.1.0.json"],
 )
-def check_coverage(target, force_field, datasets):
+def check_coverage(target, force_field, datasets, plot_torsions):
     coverage = []
+    # set of molecules involved in the target torsion
     involved_molecules = defaultdict(set)
+    # list of records involved in the target torsion
+    involved_records = defaultdict(list)
+    # records are not hashable, so to avoid duplicates in the list above, keep
+    # track of seen ids separately
+    involved_record_ids = defaultdict(set)
 
     ff = ForceField(force_field, allow_cosmetic_attributes=True)
     smirks = (
@@ -106,23 +162,41 @@ def check_coverage(target, force_field, datasets):
         print("loading forcefield and dataset")
         data = load_dataset(dataset)
 
-        print("converting dataset to molecules")
-        data = [v for value in data.entries.values() for v in value]
-        molecules = [
-            Molecule.from_mapped_smiles(r.cmiles, allow_undefined_stereo=True)
-            for r in data
-        ]
+        if plot_torsions:
+            print("converting dataset to records and molecules")
+            molecules = data.to_records()
+        else:
+            print("converting dataset to molecules")
+            # flatten values
+            data = [v for value in data.entries.values() for v in value]
+            molecules = [
+                # this seems a bit dangerous, but I should only inspect the
+                # record if plot_torsions is true too
+                (
+                    None,
+                    Molecule.from_mapped_smiles(
+                        r.cmiles, allow_undefined_stereo=True
+                    ),
+                )
+                for r in data
+            ]
 
         h = ff.get_parameter_handler("ProperTorsions")
 
         print("labeling torsions")
         results = defaultdict(int)
-        for molecule in molecules:
+        for record, molecule in molecules:
             all_labels = ff.label_molecules(molecule.to_topology())[0]
             torsions = all_labels["ProperTorsions"]
             for torsion in torsions.values():
                 results[torsion.id] += 1
                 involved_molecules[torsion.id].add(molecule)
+                if (
+                    record is not None
+                    and record.id not in involved_record_ids[torsion.id]
+                ):
+                    involved_records[torsion.id].append(record)
+                    involved_record_ids[torsion.id].add(record.id)
 
         smirk = h.get_parameter(dict(id=target))[0].smirks
         coverage.append(f"{target:5}{results[target]:5}   {smirk}")
@@ -133,12 +207,19 @@ def check_coverage(target, force_field, datasets):
         print(f"{ds:<{length}s} {cover}")
 
     out = Latex()
-    c = 0
-    for m in involved_molecules[target]:
+    for c, m in enumerate(involved_molecules[target]):
         filename = f"mol{c:02d}.png"
         draw_rdkit(m, f"output/{filename}", smirks)
         out.add_image(filename, caption=m.to_smiles())
-        c += 1
+
+    if plot_torsions:
+        for i, (r, m) in enumerate(
+            zip(involved_records[target], involved_molecules[target])
+        ):
+            filename = f"plot{i:02d}.png"
+            plot_td_record(r, m, f"output/{filename}")
+            out.add_image(filename, caption=m.to_smiles())
+
     out.to_file("output/report.tex")
 
 
