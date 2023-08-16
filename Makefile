@@ -36,6 +36,11 @@ output/report.tex: main.py latex.py
 	mkdir -p output
 	python main.py --target $(TARGET) $(flags)
 
+# rows and columns in montage
+LAYOUT ?= +5+3
+output/plots.png: $(wildcard output/plot*.png)
+	montage $^ -geometry 400x300\>$(LAYOUT) $@
+
 help:
 	@echo Usage:
 	@echo 'make TARGET=TORSION_TARGET [FF=forcefield.offxml] [DATA="ds1,ds2,dsn"] [PLOT=1]'
