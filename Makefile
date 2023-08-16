@@ -3,7 +3,7 @@
 all: output/report.pdf
 
 ifndef TARGET
-    ifneq "$(MAKECMDGOALS)" "help"
+    ifeq "$(MAKECMDGOALS)" "all"
 	$(error must specify a TARGET)
     endif
 endif
