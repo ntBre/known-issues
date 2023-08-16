@@ -1,0 +1,3307 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.7.29)  16 AUG 2023 07:15
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/usr/share/texmf-dist/tex/latex/cprotect/cprotect.sty
+Package: cprotect 2011/01/27 v1.0e (Bruno Le Floch)
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+\CPT@WriteOut=\write3
+\c@CPT@WriteCount=\count193
+\c@CPT@numB=\count194
+\CPT@commandatend@toks=\toks17
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen143
+\Gm@wd@mp=\dimen144
+\Gm@odd@mp=\dimen145
+\Gm@even@mp=\dimen146
+\Gm@layoutwidth=\dimen147
+\Gm@layoutheight=\dimen148
+\Gm@layouthoffset=\dimen149
+\Gm@layoutvoffset=\dimen150
+\Gm@dimlist=\toks18
+)
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count198
+\l__pdf_internal_box=\box51
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count199
+\scratchdimen=\dimen151
+\scratchbox=\box52
+\nofMPsegments=\count266
+\nofMParguments=\count267
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count268
+\MPscratchDim=\dimen152
+\MPnumerator=\count269
+\makeMPintoPDFobject=\count270
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<mol00.png, id=1, 451.6875pt x 451.6875pt>
+File: mol00.png Graphic file (type png)
+<use mol00.png>
+Package pdftex.def Info: mol00.png  used on input line 13.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol01.png, id=2, 451.6875pt x 451.6875pt>
+File: mol01.png Graphic file (type png)
+<use mol01.png>
+Package pdftex.def Info: mol01.png  used on input line 19.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (113.30067pt too wide) in paragraph at lines 21--22
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C#Cc2c(c(c(c(c2[H])[H])OC ([H])([H])C3=NOC(=C3
+[H])C([H])([H])[H])[ H])[H])[H])[H])C([H])([H])[C@@]([H])(C([
+ []
+
+<mol02.png, id=3, 451.6875pt x 451.6875pt>
+File: mol02.png Graphic file (type png)
+<use mol02.png>
+Package pdftex.def Info: mol02.png  used on input line 25.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (16.63274pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(=O)[O-])[H])OC([H])([H] )C([H])([H])[H])[H])
+C2=C(ON=C2C([H])([H] )[H])C([H])([H])[H] 
+ []
+
+<mol03.png, id=4, 451.6875pt x 451.6875pt>
+File: mol03.png Graphic file (type png)
+<use mol03.png>
+Package pdftex.def Info: mol03.png  used on input line 31.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol04.png, id=5, 451.6875pt x 451.6875pt>
+File: mol04.png Graphic file (type png)
+<use mol04.png>
+Package pdftex.def Info: mol04.png  used on input line 37.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (150.79974pt too wide) in paragraph at lines 39--40
+[]\OT1/cmr/m/n/10 [H]C1=C(C(=NN1[H])[H])C(=O)N(C2(C(C2([H] )[H])([H])[H])[H])C3
+(C(C(N(C(C3([H])[H]) ([H])[H])C4=NC(=NO4)C([H])([H])C([H])([H
+ []
+
+<mol05.png, id=6, 451.6875pt x 451.6875pt>
+File: mol05.png Graphic file (type png)
+<use mol05.png>
+Package pdftex.def Info: mol05.png  used on input line 43.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol06.png, id=7, 451.6875pt x 451.6875pt>
+File: mol06.png Graphic file (type png)
+<use mol06.png>
+Package pdftex.def Info: mol06.png  used on input line 49.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (106.63289pt too wide) in paragraph at lines 51--52
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1c3c(c(c(c(c3F)[H])N4C(=O) C(C(C(C4([H])[H])([H
+])[H])([H])[H])([H]) [H])[H])[H])F)N(N=C2C([H])([H])[H])c5c(c
+ []
+
+<mol07.png, id=8, 451.6875pt x 451.6875pt>
+File: mol07.png Graphic file (type png)
+<use mol07.png>
+Package pdftex.def Info: mol07.png  used on input line 55.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol08.png, id=9, 451.6875pt x 451.6875pt>
+File: mol08.png Graphic file (type png)
+<use mol08.png>
+Package pdftex.def Info: mol08.png  used on input line 61.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (119.133pt too wide) in paragraph at lines 63--64
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C([H])([H])[C@@]2(C(C(C(N (C2([H])[H])C(=O)N([
+H])C3=NOC(=C3[H])[H] )([H])[H])([H])[H])([H])[H])[H])[H])[H])
+ []
+
+<mol09.png, id=10, 451.6875pt x 451.6875pt>
+File: mol09.png Graphic file (type png)
+<use mol09.png>
+Package pdftex.def Info: mol09.png  used on input line 67.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (71.91176pt too wide) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NOC(=C2[H])C3= C(C([C@@]4(C(C([C@]3
+(S4)[H])([H])[H])([H ])[H])[H])([H])[H])[H])[H])[H] 
+ []
+
+<mol10.png, id=11, 451.6875pt x 451.6875pt>
+File: mol10.png Graphic file (type png)
+<use mol10.png>
+Package pdftex.def Info: mol10.png  used on input line 73.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (102.88292pt too wide) in paragraph at lines 75--76
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(nc3c2N=C(N3[H])C([H ])([H])C([H])(C([H])
+([H])[H])C([H])([H]) [H])[H])[H])[H])F)C([H])([H])N([H])C(=O)
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./mol00.png>] [2 <./mol01.
+png>] [3 <./mol02.png>] [4 <./mol03.png>] [5 <./mol04.png>] [6 <./mol05.png>] [
+7 <./mol06.png>] [8 <./mol07.png>] [9 <./mol08.png>] [10 <./mol09.png>]
+[11 <./mol10.png>]
+<mol11.png, id=49, 451.6875pt x 451.6875pt>
+File: mol11.png Graphic file (type png)
+<use mol11.png>
+Package pdftex.def Info: mol11.png  used on input line 81.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (124.54964pt too wide) in paragraph at lines 83--84
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(nc3c2N=C(N3[H])C([H ])(C([H])([H])[H])C(
+[H])([H])[H])[H])[H] )[H])F)C([H])([H])N([H])C(=O)C4=NC(=NO4)
+ []
+
+<mol12.png, id=50, 451.6875pt x 451.6875pt>
+File: mol12.png Graphic file (type png)
+<use mol12.png>
+Package pdftex.def Info: mol12.png  used on input line 87.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (86.63396pt too wide) in paragraph at lines 89--90
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C([H])([H])[H])[H])c2 c(c3c(nc2[H])C(=C(N3
+C([H])([H])C4=NOC(=C 4[H])C([H])([H])[H])[H])[H])[H])[H] 
+ []
+
+<mol13.png, id=51, 451.6875pt x 451.6875pt>
+File: mol13.png Graphic file (type png)
+<use mol13.png>
+Package pdftex.def Info: mol13.png  used on input line 93.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol14.png, id=52, 451.6875pt x 451.6875pt>
+File: mol14.png Graphic file (type png)
+<use mol14.png>
+Package pdftex.def Info: mol14.png  used on input line 99.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (120.52184pt too wide) in paragraph at lines 101--102
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1ON=C2C3(C(C(N(C(C3([H])[H ])([H])[H])c4c(c(c(n
+n4)N5C(=C(C(=N5)[H]) C([H])([H])[H])[H])[H])[H])([H])[H])([H]
+ []
+
+<mol15.png, id=53, 451.6875pt x 451.6875pt>
+File: mol15.png Graphic file (type png)
+<use mol15.png>
+Package pdftex.def Info: mol15.png  used on input line 105.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (133.99628pt too wide) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=C(C(=NO2)C3=NN(c4c3c(c (c(c4[H])OC([H])([H]
+)C([H])([H])OC([H])( [H])[H])F)[H])[H])[H])[H])[H])C(=O)N5C(C
+ []
+
+<mol16.png, id=54, 451.6875pt x 451.6875pt>
+File: mol16.png Graphic file (type png)
+<use mol16.png>
+Package pdftex.def Info: mol16.png  used on input line 111.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (114.69075pt too wide) in paragraph at lines 113--114
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NO[C@@]3([C@]2(C(N(C3( [H])[H])C(=O)OC(C([H
+])([H])[H])(C([H])([ H])[H])C([H])([H])[H])([H])[H])[H])[H])[
+ []
+
+<mol17.png, id=55, 451.6875pt x 451.6875pt>
+File: mol17.png Graphic file (type png)
+<use mol17.png>
+Package pdftex.def Info: mol17.png  used on input line 117.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (106.91179pt too wide) in paragraph at lines 119--120
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1ON=C2N([H])[C@]3(c4c(c(c( c(c4OC([C@@]3([H])O[
+H])(C([H])([H])[H])C ([H])([H])[H])[H])Cl)Cl)[H])[H])[H])Cl)[
+ []
+
+<mol18.png, id=56, 451.6875pt x 451.6875pt>
+File: mol18.png Graphic file (type png)
+<use mol18.png>
+Package pdftex.def Info: mol18.png  used on input line 123.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (140.66188pt too wide) in paragraph at lines 125--126
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(F)(F)F)Cl)[H])N2C(=O)C3 =C(C(=NN3[C@](C2([H]
+)[H])([H])C([H])([H] )[H])[H])C4=C(C(=NO4)c5c(c(c(nc5[H])[H])
+ []
+
+<mol19.png, id=57, 451.6875pt x 451.6875pt>
+File: mol19.png Graphic file (type png)
+<use mol19.png>
+Package pdftex.def Info: mol19.png  used on input line 129.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (138.85638pt too wide) in paragraph at lines 131--132
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1C#N)[H])[C@@]([C@@](C3(O2 )C(C(S(=O)(=O)C(C3([
+H])[H])([H])[H])([H] )[H])([H])[H])([H])O[H])([H])OC4=NOc5c4c
+ []
+
+<mol20.png, id=58, 451.6875pt x 451.6875pt>
+File: mol20.png Graphic file (type png)
+<use mol20.png>
+Package pdftex.def Info: mol20.png  used on input line 135.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[12
+
+ <./mol11.png>]
+Overfull \hbox (139.68854pt too wide) in paragraph at lines 137--138
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(nc1[H])[H])C2=NOC(=C2[H])C3=C 4C(=O)N(C([C@@](N4N=
+C3[H])([H])C([H])([H ])[H])([H])[H])c5c(c(c(c(c5[H])C([H])([H
+ []
+
+[13 <./mol12.png>] [14 <./mol13.png>] [15 <./mol14.png>] [16 <./mol15.png>]
+[17 <./mol16.png>] [18 <./mol17.png>] [19 <./mol18.png>] [20 <./mol19.png>]
+[21 <./mol20.png>]
+<mol21.png, id=91, 451.6875pt x 451.6875pt>
+File: mol21.png Graphic file (type png)
+<use mol21.png>
+Package pdftex.def Info: mol21.png  used on input line 143.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol22.png, id=92, 451.6875pt x 451.6875pt>
+File: mol22.png Graphic file (type png)
+<use mol22.png>
+Package pdftex.def Info: mol22.png  used on input line 149.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (47.46724pt too wide) in paragraph at lines 151--152
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])N=C(N2[H])C3=NOC(=N3) C4(C(C(N(C(C4([H])[H
+])([H])[H])[H])([H]) [H])([H])[H])[H])[H])[H] 
+ []
+
+<mol23.png, id=93, 451.6875pt x 225.84375pt>
+File: mol23.png Graphic file (type png)
+<use mol23.png>
+Package pdftex.def Info: mol23.png  used on input line 155.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+
+Overfull \hbox (144.96742pt too wide) in paragraph at lines 157--158
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C([H])([H])N([H])C(=O )C2=C(N(N=N2)C3=NON=
+C3N([H])[H])C([H])([ H])[H])[H])C(=O)N([H])c4c(c(c5c(c4[H])C(
+ []
+
+<mol24.png, id=94, 451.6875pt x 451.6875pt>
+File: mol24.png Graphic file (type png)
+<use mol24.png>
+Package pdftex.def Info: mol24.png  used on input line 161.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (109.68954pt too wide) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c(c3c(c(c2[H])Cl)N( C(=N3)C4=NOC5(C4([H]
+)[H])C(C(C(C(C5([H]) [H])([H])[H])([H])[H])([H])[H])([H])[H])
+ []
+
+<mol25.png, id=95, 451.6875pt x 451.6875pt>
+File: mol25.png Graphic file (type png)
+<use mol25.png>
+Package pdftex.def Info: mol25.png  used on input line 167.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol26.png, id=96, 451.6875pt x 451.6875pt>
+File: mol26.png Graphic file (type png)
+<use mol26.png>
+Package pdftex.def Info: mol26.png  used on input line 173.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (113.02292pt too wide) in paragraph at lines 175--176
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@@]2(c3c(c(c(c( c3N(C2=O)[H])[H])[H]
+)C4=C(ON=C4C([H])([H ])[H])C([H])([H])[H])[H])C([H])([H])[H])
+ []
+
+<mol27.png, id=97, 451.6875pt x 451.6875pt>
+File: mol27.png Graphic file (type png)
+<use mol27.png>
+Package pdftex.def Info: mol27.png  used on input line 179.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (153.57861pt too wide) in paragraph at lines 181--182
+[]\OT1/cmr/m/n/10 [H]c1c(nc(nc1N2C([C@](O[C@](C2([H])[H])( [H])C([H])([H])[H])(
+[H])C3=NC(=NO3)C([H] )([H])[H])([H])[H])C4=C(N=C5N4C(=C(C(=C5
+ []
+
+<mol28.png, id=98, 451.6875pt x 451.6875pt>
+File: mol28.png Graphic file (type png)
+<use mol28.png>
+Package pdftex.def Info: mol28.png  used on input line 185.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (145.80188pt too wide) in paragraph at lines 187--188
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=NO2)N3C(C(N(C(C3([ H])[H])([H])[H])C([H
+])([H])C([H])([H])C4 =C(N=C5N(C4=O)C(=C(N5C([H])([H])[H])[H])
+ []
+
+<mol29.png, id=99, 451.6875pt x 451.6875pt>
+File: mol29.png Graphic file (type png)
+<use mol29.png>
+Package pdftex.def Info: mol29.png  used on input line 191.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (101.91289pt too wide) in paragraph at lines 193--194
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@@]2(c3c(c(c(c( c3OC(=O)N2[H])[H])[H
+])C4=C(ON=C4C([H])([ H])[H])C([H])([H])[H])[H])[H])[H])[H] 
+ []
+
+<mol30.png, id=100, 451.6875pt x 451.6875pt>
+File: mol30.png Graphic file (type png)
+<use mol30.png>
+Package pdftex.def Info: mol30.png  used on input line 197.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (149.96744pt too wide) in paragraph at lines 199--200
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1C(=NO2)C3(C(C(N(C(C3([H]) [H])([H])[H])C([H])(
+[H])C([H])([H])C4=C( N=C5C(=C(C(=C(N5C4=O)[H])[H])[H])[H])C([
+ []
+
+<mol31.png, id=101, 451.6875pt x 451.6875pt>
+File: mol31.png Graphic file (type png)
+<use mol31.png>
+Package pdftex.def Info: mol31.png  used on input line 203.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[22
+
+ <./mol21.png>]
+Overfull \hbox (113.85738pt too wide) in paragraph at lines 205--206
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@]([H])(C([H])( [H])[H])N2c3c(nc(c(n
+3)C4=C(ON=C4C([H])([ H])[H])C([H])([H])[H])[H])N=C2O[H])[H])[
+ []
+
+<mol32.png, id=105, 451.6875pt x 451.6875pt>
+File: mol32.png Graphic file (type png)
+<use mol32.png>
+Package pdftex.def Info: mol32.png  used on input line 209.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (68.57729pt too wide) in paragraph at lines 211--212
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c3c(nc2[H])N(C(=O)N3C ([H])([H])C4=NOC(=C4
+[H])C([H])([H])[H])C ([H])([H])[H])[H])[H])F)F)[H] 
+ []
+
+<mol33.png, id=106, 451.6875pt x 451.6875pt>
+File: mol33.png Graphic file (type png)
+<use mol33.png>
+Package pdftex.def Info: mol33.png  used on input line 215.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol34.png, id=107, 451.6875pt x 451.6875pt>
+File: mol34.png Graphic file (type png)
+<use mol34.png>
+Package pdftex.def Info: mol34.png  used on input line 221.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+./report.tex:223: Undefined control sequence.
+l.223 ...H])(C([H])( [H])[H])C([H])([H])[H])[H])\N
+                                                  ([H])[H])(C ([H])([H])[H])...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (126.07967pt too wide) in paragraph at lines 223--224
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1S(=O)(=O)C(C(=O)N([H])/N= C(/C2=C(C(=NO2)C(C([
+H])([H])[H])(C([H])( [H])[H])C([H])([H])[H])[H])([H])[H])(C
+ []
+
+<mol35.png, id=108, 451.6875pt x 451.6875pt>
+File: mol35.png Graphic file (type png)
+<use mol35.png>
+Package pdftex.def Info: mol35.png  used on input line 227.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (105.6618pt too wide) in paragraph at lines 229--230
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1C(N(C2([H])[H])C(=O)c3c(c (c4c(c3O[H])C(=NO4)[
+H])C([H])(C([H])([H] )[H])C([H])([H])[H])[H])([H])[H])[H])F)[
+ []
+
+<mol36.png, id=109, 451.6875pt x 451.6875pt>
+File: mol36.png Graphic file (type png)
+<use mol36.png>
+Package pdftex.def Info: mol36.png  used on input line 233.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (139.55075pt too wide) in paragraph at lines 235--236
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C2=NOC(=C2[H])C3=NN(c4c3c( c(c(c4[H])OC([H])([H
+])C([H])([H])OC([H]) ([H])[H])F)[H])[H])[H])C(=O)N5C(C(C5([H]
+ []
+
+<mol37.png, id=110, 451.6875pt x 451.6875pt>
+File: mol37.png Graphic file (type png)
+<use mol37.png>
+Package pdftex.def Info: mol37.png  used on input line 239.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (124.41301pt too wide) in paragraph at lines 241--242
+[]\OT1/cmr/m/n/10 [H]C1=C(N(N=C1C(C([H])([H])[H])(C([H])([ H])[H])C([H])([H])[H
+])C([H])([H])[H])C2= NC(=NO2)C(C([H])([H])[H])(C([H])([H])[H]
+ []
+
+<mol38.png, id=111, 451.6875pt x 451.6875pt>
+File: mol38.png Graphic file (type png)
+<use mol38.png>
+Package pdftex.def Info: mol38.png  used on input line 245.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (101.63298pt too wide) in paragraph at lines 247--248
+[]\OT1/cmr/m/n/10 [H]c1c(nc(c(n1)N2C(C(N(C(C2([H])[H])([H] )[H])C(=O)OC(C([H])(
+[H])[H])(C([H])([H]) [H])C([H])([H])[H])([H])[H])([H])[H])[H]
+ []
+
+<mol39.png, id=112, 451.6875pt x 451.6875pt>
+File: mol39.png Graphic file (type png)
+<use mol39.png>
+Package pdftex.def Info: mol39.png  used on input line 251.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (9.96718pt too wide) in paragraph at lines 253--254
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)N([H])C(=O)OC([H])( [H])C(Cl)(Cl)Cl 
+ []
+
+<mol40.png, id=113, 451.6875pt x 225.84375pt>
+File: mol40.png Graphic file (type png)
+<use mol40.png>
+Package pdftex.def Info: mol40.png  used on input line 257.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+[23 <./mol22.png>]
+Overfull \hbox (126.6341pt too wide) in paragraph at lines 259--260
+[]\OT1/cmr/m/n/10 [H]c1c(c2=NON=c2c(c1[H])N([H])C(=O)N3C([ C@](C(C3([H])[H])([H
+])[H])([H])C([H])([H ])c4c(c(c5c(c4[H])OC(O5)(F)F)[H])[H])([H
+ []
+
+<mol41.png, id=117, 451.6875pt x 451.6875pt>
+File: mol41.png Graphic file (type png)
+<use mol41.png>
+Package pdftex.def Info: mol41.png  used on input line 263.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (112.1885pt too wide) in paragraph at lines 265--266
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c(c(c2S(=NC3=C(C(=NO3)C([H] )([H])[H])C([H])([H]
+)[H])(=O)[O-])[H])[H ])[H])c(c1[H])N(C([H])([H])[H])C([H])([H
+ []
+
+<mol42.png, id=118, 451.6875pt x 451.6875pt>
+File: mol42.png Graphic file (type png)
+<use mol42.png>
+Package pdftex.def Info: mol42.png  used on input line 269.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (137.74525pt too wide) in paragraph at lines 271--272
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C([H])([H])C(C([H])([H])[H] )(C([H])([H])[H])C([
+H])([H])[H])N([H])C( =O)[C@@]2(C(C(C(N2C([H])([H])C3(C(C3([H]
+ []
+
+<mol43.png, id=119, 451.6875pt x 451.6875pt>
+File: mol43.png Graphic file (type png)
+<use mol43.png>
+Package pdftex.def Info: mol43.png  used on input line 275.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (133.02303pt too wide) in paragraph at lines 277--278
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(=O)C2=C([N-]N(C2=O)C([H ])([H])[H])[H])C([H]
+)([H])[H])C3=NOC(C3( [H])[H])([H])[H])S(=O)(=O)C([H])([H])[H]
+ []
+
+<mol44.png, id=120, 451.6875pt x 451.6875pt>
+File: mol44.png Graphic file (type png)
+<use mol44.png>
+Package pdftex.def Info: mol44.png  used on input line 281.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (132.1896pt too wide) in paragraph at lines 283--284
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C3=C(N2C([H])([H])[H] )C(=C(C(=O)N3c4c(c(c
+(c(c4[H])[H])C5=NOC( =N5)N(C([H])([H])[H])C([H])([H])[H])[H])
+ []
+
+<mol45.png, id=121, 451.6875pt x 451.6875pt>
+File: mol45.png Graphic file (type png)
+<use mol45.png>
+Package pdftex.def Info: mol45.png  used on input line 287.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol46.png, id=122, 451.6875pt x 451.6875pt>
+File: mol46.png Graphic file (type png)
+<use mol46.png>
+Package pdftex.def Info: mol46.png  used on input line 293.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol47.png, id=123, 451.6875pt x 451.6875pt>
+File: mol47.png Graphic file (type png)
+<use mol47.png>
+Package pdftex.def Info: mol47.png  used on input line 299.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol48.png, id=124, 451.6875pt x 451.6875pt>
+File: mol48.png Graphic file (type png)
+<use mol48.png>
+Package pdftex.def Info: mol48.png  used on input line 305.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (149.82976pt too wide) in paragraph at lines 307--308
+[]\OT1/cmr/m/n/10 [H]C1=C(N(N=C1[H])C2=NOC(=C2[H])C([H])([ H])[H])C3(C(C(N(C(C3
+([H])[H])([H])[H])C( =O)[C@](C([H])([H])[H])(C(F)(F)F)O[H])([
+ []
+
+<mol49.png, id=125, 451.6875pt x 451.6875pt>
+File: mol49.png Graphic file (type png)
+<use mol49.png>
+Package pdftex.def Info: mol49.png  used on input line 311.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (145.66078pt too wide) in paragraph at lines 313--314
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(nc3c2N(C(=N3)C4=C(N (N=C4[H])C([H])([H])
+[H])[H])[H])[H])[H]) [H])F)C([H])([H])N([H])C(=O)C5=NOC(=N5)C
+ []
+
+<mol50.png, id=126, 451.6875pt x 451.6875pt>
+File: mol50.png Graphic file (type png)
+<use mol50.png>
+Package pdftex.def Info: mol50.png  used on input line 317.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (75.10507pt too wide) in paragraph at lines 319--320
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c3c(nc2[H])N=C(N3C([H ])([H])C4=NOC(=C4[H]
+)C([H])([H])[H])O[H] )[H])OC([H])([H])[H])[H])F)[H] 
+ []
+
+<mol51.png, id=127, 451.6875pt x 451.6875pt>
+File: mol51.png Graphic file (type png)
+<use mol51.png>
+Package pdftex.def Info: mol51.png  used on input line 323.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (122.18849pt too wide) in paragraph at lines 325--326
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])c(c(c(c2N(C([H])([H]) C(=O)O[H])S(=O)(=O)c
+3c(c(c(c(c3[H])Cl)[H ])Cl)[H])C4=NOC(=N4)C([H])([H])[H])[H])[
+ []
+
+<mol52.png, id=128, 451.6875pt x 451.6875pt>
+File: mol52.png Graphic file (type png)
+<use mol52.png>
+Package pdftex.def Info: mol52.png  used on input line 329.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (95.24623pt too wide) in paragraph at lines 331--332
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1C3=C(N(C(=N3)C(=O)N([H])[ H])[H])C([H])([H])[H
+])[H])C(=C(N2[H])C4= NC(=NO4)C([H])([H])[H])[H])[H] 
+ []
+
+<mol53.png, id=129, 451.6875pt x 451.6875pt>
+File: mol53.png Graphic file (type png)
+<use mol53.png>
+Package pdftex.def Info: mol53.png  used on input line 335.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (130.52187pt too wide) in paragraph at lines 337--338
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=C(C(=NO2)[H])C (=O)N3C([C@]4([C@@](
+C(C3([H])[H])([H])[H ])(C(N4c5nc(c(c(n5)C([H])([H])[H])[H])C(
+ []
+
+<mol54.png, id=130, 451.6875pt x 451.6875pt>
+File: mol54.png Graphic file (type png)
+<use mol54.png>
+Package pdftex.def Info: mol54.png  used on input line 341.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (8.5783pt too wide) in paragraph at lines 343--344
+[]\OT1/cmr/m/n/10 [H]c1nc2c(c(n1)N3C([C@](OC(C3([H])[H])([ H])[H])([H])C4=NOC(=
+N4)[H])([H])[H])C(=C (N2[H])[H])[H] 
+ []
+
+<mol55.png, id=131, 451.6875pt x 451.6875pt>
+File: mol55.png Graphic file (type png)
+<use mol55.png>
+Package pdftex.def Info: mol55.png  used on input line 347.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (109.96625pt too wide) in paragraph at lines 349--350
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c(c(c3c(n2)N=C(N3[H ])C4=NOC5(C4([H])[H]
+)C(C(C(C(C5([H])[H]) ([H])[H])([H])[H])([H])[H])([H])[H])[H])
+ []
+
+<mol56.png, id=132, 451.6875pt x 451.6875pt>
+File: mol56.png Graphic file (type png)
+<use mol56.png>
+Package pdftex.def Info: mol56.png  used on input line 353.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (152.19089pt too wide) in paragraph at lines 355--356
+[]\OT1/cmr/m/n/10 [H][C@]1(C(C2=NOC(=C2C(=O)C1([H])[H])[C@ @]([H])(C(=O)C([H])(
+[H])S(=O)(=O)C([H])( [H])[H])C3(C(C(N(C(C3([H])[H])([H])[H])[
+ []
+
+<mol57.png, id=133, 451.6875pt x 451.6875pt>
+File: mol57.png Graphic file (type png)
+<use mol57.png>
+Package pdftex.def Info: mol57.png  used on input line 359.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (139.55078pt too wide) in paragraph at lines 361--362
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])OC([H])([
+H])C([H])([H])OC([H] )([H])[H])F)[H])[H])[H])[H])C(=O)N=S(=O)
+ []
+
+<mol58.png, id=134, 451.6875pt x 451.6875pt>
+File: mol58.png Graphic file (type png)
+<use mol58.png>
+Package pdftex.def Info: mol58.png  used on input line 365.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (138.8563pt too wide) in paragraph at lines 367--368
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C([H])([H])[H])N([H])C(=O )C2=C(C(=NO2)[H])[H]
+)[H])N([H])C(=O)c3c( c(c(c(c3[H])N4C(=C(N=C4[H])C([H])([H])[H
+ []
+
+<mol59.png, id=135, 451.6875pt x 451.6875pt>
+File: mol59.png Graphic file (type png)
+<use mol59.png>
+Package pdftex.def Info: mol59.png  used on input line 371.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (26.91273pt too wide) in paragraph at lines 373--374
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])N=C(N2[H])C3=NOC(=N3) N4C(C(N(C(C4([H])[H]
+)([H])[H])[H])([H])[ H])([H])[H])[H])[H] 
+ []
+
+<mol60.png, id=136, 451.6875pt x 451.6875pt>
+File: mol60.png Graphic file (type png)
+<use mol60.png>
+Package pdftex.def Info: mol60.png  used on input line 377.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[24 <./mol23.png>]
+Overfull \hbox (88.29953pt too wide) in paragraph at lines 379--380
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C#Cc2c(c(c(c(c2[H])[H])OC ([H])([H])C([H])([H]
+)[H])[H])[H])[H])[H] )C([H])([H])[C@]([H])(C([H])([H])[H])N([
+ []
+
+<mol61.png, id=140, 451.6875pt x 451.6875pt>
+File: mol61.png Graphic file (type png)
+<use mol61.png>
+Package pdftex.def Info: mol61.png  used on input line 383.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (102.18951pt too wide) in paragraph at lines 385--386
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c3c(c(c(c(c3nc(c2C4=C(C (=NO4)C([H])([H])[H]
+)[H])O[H])[H])[H])Cl )[H])[H])[H])C([H])(C([H])([H])[H])C([H]
+ []
+
+<mol62.png, id=141, 451.6875pt x 451.6875pt>
+File: mol62.png Graphic file (type png)
+<use mol62.png>
+Package pdftex.def Info: mol62.png  used on input line 389.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (36.3561pt too wide) in paragraph at lines 391--392
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NOC(=C2c3c(c(c (c(c3[H])[H])S(=O)(=
+O)N([H])[H])[H])[H]) C([H])([H])O[H])[H])[H] 
+ []
+
+<mol63.png, id=142, 451.6875pt x 451.6875pt>
+File: mol63.png Graphic file (type png)
+<use mol63.png>
+Package pdftex.def Info: mol63.png  used on input line 395.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (11.3549pt too wide) in paragraph at lines 397--398
+[]\OT1/cmr/m/n/10 [H]c1c2c(c(c3c1C4(C(=O)N3c5c(c(c(nc5[H]) OC([H])([H])[H])Cl)[
+H])C(C4([H])[H])([H] )[H])[H])ON=C2[H] 
+ []
+
+<mol64.png, id=143, 451.6875pt x 451.6875pt>
+File: mol64.png Graphic file (type png)
+<use mol64.png>
+Package pdftex.def Info: mol64.png  used on input line 401.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (127.18971pt too wide) in paragraph at lines 403--404
+[]\OT1/cmr/m/n/10 [H]C1(C(C(C(C(C1([H])[H])([H])[H])([H])C 2=NOC(=N2)C(C([H])([
+H])[H])(C([H])([H])[ H])S(=O)(=O)C([H])(C([H])([H])[H])C([H])
+ []
+
+<mol65.png, id=144, 451.6875pt x 451.6875pt>
+File: mol65.png Graphic file (type png)
+<use mol65.png>
+Package pdftex.def Info: mol65.png  used on input line 407.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (109.41182pt too wide) in paragraph at lines 409--410
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])S(=O)(=O)N([H])C( [H])([H])c2c(c(c(c(c
+2[H])[H])C3=C(ON=C3C ([H])([H])[H])C([H])([H])[H])[H])[H])[H]
+ []
+
+<mol66.png, id=145, 451.6875pt x 451.6875pt>
+File: mol66.png Graphic file (type png)
+<use mol66.png>
+Package pdftex.def Info: mol66.png  used on input line 413.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (111.91182pt too wide) in paragraph at lines 415--416
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1nc(c(c2N3C(C(N(C(C3([H])[ H])([H])[H])C([H])([
+H])[H])([H])[H])([H] )[H])C4=C(C(=NO4)C([H])([H])[H])[H])O[H]
+ []
+
+<mol67.png, id=146, 451.6875pt x 451.6875pt>
+File: mol67.png Graphic file (type png)
+<use mol67.png>
+Package pdftex.def Info: mol67.png  used on input line 419.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (119.41078pt too wide) in paragraph at lines 421--422
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C([C@@](N2C(=O)C([H]) ([H])N([H])[H])([H])
+C3=NOC(=N3)C([H])([H ])C([H])([H])C([H])([H])[H])([H])[H])[H]
+ []
+
+<mol68.png, id=147, 451.6875pt x 451.6875pt>
+File: mol68.png Graphic file (type png)
+<use mol68.png>
+Package pdftex.def Info: mol68.png  used on input line 425.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.02187pt too wide) in paragraph at lines 427--428
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C3(C(C(N(C(C3([H])[H] )([H])[H])C(=O)C4=C(
+ON=C4[H])C([H])([H]) [H])([H])[H])([H])[H])C(N2[H])([H])[H])[
+ []
+
+[25 <./mol24.png>]
+<mol69.png, id=152, 451.6875pt x 451.6875pt>
+File: mol69.png Graphic file (type png)
+<use mol69.png>
+Package pdftex.def Info: mol69.png  used on input line 431.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (93.85736pt too wide) in paragraph at lines 433--434
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])OC([H])([H])C([H])(C( [H])([H])[H])C([H])(
+[H])[H])[H])C([H])([ H])[N@+]2(C([C@](C(C2([H])[H])([H])[H])(
+ []
+
+<mol70.png, id=153, 451.6875pt x 451.6875pt>
+File: mol70.png Graphic file (type png)
+<use mol70.png>
+Package pdftex.def Info: mol70.png  used on input line 437.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (153.57861pt too wide) in paragraph at lines 439--440
+[]\OT1/cmr/m/n/10 [H]c1c(nc(nc1N2C([C@](O[C@](C2([H])[H])( [H])C([H])([H])[H])(
+[H])C3=NC(=NO3)C([H] )([H])[H])([H])[H])C4=C(N=C5N4C(=C(C(=C5
+ []
+
+<mol71.png, id=154, 451.6875pt x 451.6875pt>
+File: mol71.png Graphic file (type png)
+<use mol71.png>
+Package pdftex.def Info: mol71.png  used on input line 443.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (74.6906pt too wide) in paragraph at lines 445--446
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@]([H])(c2c(c(c (c(c2[H])O[H])[H])C3
+=C(ON=C3C([H])([H])[ H])C([H])([H])[H])[H])O[H])[H])[H] 
+ []
+
+<mol72.png, id=155, 451.6875pt x 451.6875pt>
+File: mol72.png Graphic file (type png)
+<use mol72.png>
+Package pdftex.def Info: mol72.png  used on input line 449.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (34.13277pt too wide) in paragraph at lines 451--452
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=C(N2[H])[H])C3=NOC (=N3)C4=C(C(C(N(C4([
+H])[H])[H])([H])[H]) ([H])[H])[H])[H])[H] 
+ []
+
+[26 <./mol25.png>] [27 <./mol26.png>] [28 <./mol27.png>] [29 <./mol28.png>]
+[30 <./mol29.png>] [31 <./mol30.png>] [32 <./mol31.png>] [33 <./mol32.png>]
+[34 <./mol33.png>] [35 <./mol34.png>] [36 <./mol35.png>] [37 <./mol36.png>]
+[38 <./mol37.png>] [39 <./mol38.png>] [40 <./mol39.png>] [41 <./mol40.png>]
+[42 <./mol41.png>] [43 <./mol42.png>] [44 <./mol43.png>] [45 <./mol44.png>]
+[46 <./mol45.png>] [47 <./mol46.png>] [48 <./mol47.png>] [49 <./mol48.png>]
+[50 <./mol49.png>] [51 <./mol50.png>] [52 <./mol51.png>] [53 <./mol52.png>]
+[54 <./mol53.png>] [55 <./mol54.png>] [56 <./mol55.png>] [57 <./mol56.png>]
+[58 <./mol57.png>] [59 <./mol58.png>] [60 <./mol59.png>] [61 <./mol60.png>]
+[62 <./mol61.png>] [63 <./mol62.png>] [64 <./mol63.png>] [65 <./mol64.png>]
+[66 <./mol65.png>] [67 <./mol66.png>] [68 <./mol67.png>] [69 <./mol68.png>]
+[70 <./mol69.png>] [71 <./mol70.png>] [72 <./mol71.png>] [73 <./mol72.png>]
+<mol73.png, id=309, 451.6875pt x 451.6875pt>
+File: mol73.png Graphic file (type png)
+<use mol73.png>
+Package pdftex.def Info: mol73.png  used on input line 457.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.57845pt too wide) in paragraph at lines 459--460
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])OC([H])([H])[H])c2c(c (nc3c2OC(=C3[H])c4c(
+c(c(c(c4OC([H])([H]) [H])[H])[H])C5=NOC(=N5)C([H])([H])[N+]([
+ []
+
+<mol74.png, id=310, 451.6875pt x 451.6875pt>
+File: mol74.png Graphic file (type png)
+<use mol74.png>
+Package pdftex.def Info: mol74.png  used on input line 463.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.57846pt too wide) in paragraph at lines 465--466
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=NO2)C([H])([H])C([ H])([H])C([H])([H])C
+(=O)N3C(C(C(C(C3([H] )[H])([H])[H])([H])C(=O)c4c(c(c(c(c4[H])
+ []
+
+<mol75.png, id=311, 451.6875pt x 451.6875pt>
+File: mol75.png Graphic file (type png)
+<use mol75.png>
+Package pdftex.def Info: mol75.png  used on input line 469.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (115.24515pt too wide) in paragraph at lines 471--472
+[]\OT1/cmr/m/n/10 [H]c1c(nc(c(c1C([H])([H])[H])N([H])c2c3c (c(c(n2)[H])[H])N(C(
+=C3[H])[H])C([H])([H ])C4=NOC(=C4[H])C([H])([H])[H])C([H])([H
+ []
+
+<mol76.png, id=312, 451.6875pt x 451.6875pt>
+File: mol76.png Graphic file (type png)
+<use mol76.png>
+Package pdftex.def Info: mol76.png  used on input line 475.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol77.png, id=313, 451.6875pt x 451.6875pt>
+File: mol77.png Graphic file (type png)
+<use mol77.png>
+Package pdftex.def Info: mol77.png  used on input line 481.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (134.96637pt too wide) in paragraph at lines 483--484
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1S(=O)(=O)C(C2=NC(=C(O2)[H ])C3=NOC(=C3[H])C(C(
+[H])([H])[H])(C([H]) ([H])[H])C([H])([H])[H])(C([H])([H])[H])
+ []
+
+<mol78.png, id=314, 451.6875pt x 451.6875pt>
+File: mol78.png Graphic file (type png)
+<use mol78.png>
+Package pdftex.def Info: mol78.png  used on input line 487.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (146.07857pt too wide) in paragraph at lines 489--490
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=C(N=C(O2)[H])[H])[H])[ H])C(=O)N(C3(C(C3([H
+])[H])([H])[H])[H])C 4(C(C(N(C(C4([H])[H])([H])[H])C5=NOC(=N5
+ []
+
+<mol79.png, id=315, 451.6875pt x 451.6875pt>
+File: mol79.png Graphic file (type png)
+<use mol79.png>
+Package pdftex.def Info: mol79.png  used on input line 493.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (82.4673pt too wide) in paragraph at lines 495--496
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@@]([H])(c2c(c( c(c(c2[H])O[H])[H])C
+3=C(ON=C3C([H])([H]) [H])C([H])([H])[H])[H])O[H])[H])[H] 
+ []
+
+<mol80.png, id=316, 451.6875pt x 451.6875pt>
+File: mol80.png Graphic file (type png)
+<use mol80.png>
+Package pdftex.def Info: mol80.png  used on input line 499.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (74.41173pt too wide) in paragraph at lines 501--502
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=N2)C3=C(OC4=C(C3( [H])[H])C(N(C(C4=C([
+H])[H])([H])[H])[H]) ([H])[H])[H])[H])[H])Cl)[H] 
+ []
+
+<mol81.png, id=317, 451.6875pt x 451.6875pt>
+File: mol81.png Graphic file (type png)
+<use mol81.png>
+Package pdftex.def Info: mol81.png  used on input line 505.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (135.80083pt too wide) in paragraph at lines 507--508
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=C(C(=NO2)[H])[H])[H])[ C@@]3(C([S@@]4(=NC(C
+(C(C(N4C(=N3)[H])([H ])[H])([H])[H])([H])[H])([H])[H])=O)([H]
+ []
+
+<mol82.png, id=318, 451.6875pt x 451.6875pt>
+File: mol82.png Graphic file (type png)
+<use mol82.png>
+Package pdftex.def Info: mol82.png  used on input line 511.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (121.91182pt too wide) in paragraph at lines 513--514
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1C3=C(C(C(=O)N(N3[H])[H])( [H])[H])C([H])([H])C
+([H])([H])[H])[H])OC (=N2)c4c(c(c(c(c4[H])[H])OC([H])([H])C5=
+ []
+
+[74
+
+ <./mol73.png>]
+<mol83.png, id=322, 451.6875pt x 451.6875pt>
+File: mol83.png Graphic file (type png)
+<use mol83.png>
+Package pdftex.def Info: mol83.png  used on input line 517.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (18.02385pt too wide) in paragraph at lines 519--520
+[]\OT1/cmr/m/n/10 [H]C1=C2N=C(C(=C(N2N=C1[H])N([H])C3(C(C( C3([H])[H])([H])[H])
+([H])[H])C4=NC(=NO4) [H])[H])[H] 
+ []
+
+<mol84.png, id=323, 451.6875pt x 451.6875pt>
+File: mol84.png Graphic file (type png)
+<use mol84.png>
+Package pdftex.def Info: mol84.png  used on input line 523.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (55.80052pt too wide) in paragraph at lines 525--526
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=C(S2)c3c4c(c(c(c(c 4nc(c3C5=C(C(=NO5)C(
+[H])([H])[H])[H])O[H ])[H])[H])Cl)[H])[H])[H])[H] 
+ []
+
+<mol85.png, id=324, 451.6875pt x 451.6875pt>
+File: mol85.png Graphic file (type png)
+<use mol85.png>
+Package pdftex.def Info: mol85.png  used on input line 529.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol86.png, id=325, 451.6875pt x 451.6875pt>
+File: mol86.png Graphic file (type png)
+<use mol86.png>
+Package pdftex.def Info: mol86.png  used on input line 535.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (43.02281pt too wide) in paragraph at lines 537--538
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1N3C(=O)C([C@](C3([H])[H]) ([H])C4=NC(=NO4)[H])
+([H])[H])[H])OC(C(O2 )([H])[H])([H])[H])[H] 
+ []
+
+<mol87.png, id=326, 451.6875pt x 225.84375pt>
+File: mol87.png Graphic file (type png)
+<use mol87.png>
+Package pdftex.def Info: mol87.png  used on input line 541.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+
+Overfull \hbox (52.46614pt too wide) in paragraph at lines 543--544
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc3=NON=c3n2)[H])[H]) [H])C4(C(C(C(C(C4([H
+])[H])([H])[H])([H]) [H])([H])[H])([H])[H])[H])[H] 
+ []
+
+<mol88.png, id=327, 451.6875pt x 451.6875pt>
+File: mol88.png Graphic file (type png)
+<use mol88.png>
+Package pdftex.def Info: mol88.png  used on input line 547.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol89.png, id=328, 451.6875pt x 451.6875pt>
+File: mol89.png Graphic file (type png)
+<use mol89.png>
+Package pdftex.def Info: mol89.png  used on input line 553.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (135.66083pt too wide) in paragraph at lines 555--556
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1F)[H])[H])S(=O)(=O)C(C2=N N=C(S2)C3=NOC(=C3[H]
+)C(C([H])([H])[H])(C ([H])([H])[H])C([H])([H])[H])(C([H])([H]
+ []
+
+<mol90.png, id=329, 451.6875pt x 451.6875pt>
+File: mol90.png Graphic file (type png)
+<use mol90.png>
+Package pdftex.def Info: mol90.png  used on input line 559.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (133.71744pt too wide) in paragraph at lines 561--562
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C#N)[H])F)C2=NOC(=C2[H])C (=O)N(C3(C(C3([H])[H
+])([H])[H])[H])C4(C( C(N(C(C4([H])[H])([H])[H])[H])([H])[H])(
+ []
+
+<mol91.png, id=330, 451.6875pt x 451.6875pt>
+File: mol91.png Graphic file (type png)
+<use mol91.png>
+Package pdftex.def Info: mol91.png  used on input line 565.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (110.79956pt too wide) in paragraph at lines 567--568
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c(c(c3c(c2C([H])([H ])[H])N(C(=N3)C4=NOC
+5(C4([H])[H])C(C(C(C (C5([H])[H])([H])[H])([H])[H])([H])[H])(
+ []
+
+<mol92.png, id=331, 451.6875pt x 451.6875pt>
+File: mol92.png Graphic file (type png)
+<use mol92.png>
+Package pdftex.def Info: mol92.png  used on input line 571.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (39.41064pt too wide) in paragraph at lines 573--574
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=[N+]1N2C(C(OC(C2([H])[H])([H] )[H])([H])[H])([H])[
+H])/N=C(^^_[H])/OC([H ])([H])C([H])([H])[H] 
+ []
+
+<mol93.png, id=332, 451.6875pt x 451.6875pt>
+File: mol93.png Graphic file (type png)
+<use mol93.png>
+Package pdftex.def Info: mol93.png  used on input line 577.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (149.96631pt too wide) in paragraph at lines 579--580
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C([H])([H])N([H])C(=O )C2=NOC(=C2[H])C3=C(
+N(N=C3[H])[H])[H])[H ])C(=O)N([H])c4c(c(c5c(c4[H])C(N(C(C5([H
+ []
+
+[75 <./mol74.png>]
+<mol94.png, id=336, 451.6875pt x 451.6875pt>
+File: mol94.png Graphic file (type png)
+<use mol94.png>
+Package pdftex.def Info: mol94.png  used on input line 583.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (165.10532pt too wide) in paragraph at lines 585--586
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(nc1[H])C(=C(N(C2=O)[C@@]([H]) (C3=NN=C4N3C(=C(C(=C
+4F)[H])C5=C(C(=NO5)C ([H])([H])[H])[H])[H])C([H])([H])[H])[H]
+ []
+
+<mol95.png, id=337, 451.6875pt x 451.6875pt>
+File: mol95.png Graphic file (type png)
+<use mol95.png>
+Package pdftex.def Info: mol95.png  used on input line 589.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (119.41183pt too wide) in paragraph at lines 591--592
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C3(C(C(OC
+(C3([H])[H])([H])[H] )([H])[H])([H])[H])C(=O)N([H])C4=C(C(=NO
+ []
+
+<mol96.png, id=338, 451.6875pt x 451.6875pt>
+File: mol96.png Graphic file (type png)
+<use mol96.png>
+Package pdftex.def Info: mol96.png  used on input line 595.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (100.80066pt too wide) in paragraph at lines 597--598
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c(nc2N([H])C3=C(C(=NO3)C([H ])([H])[H])[H])c4c(c
+(c(c(c4[H])[H])N(C([ H])([H])[H])C([H])([H])[H])[H])[H])[H])n
+ []
+
+<mol97.png, id=339, 451.6875pt x 451.6875pt>
+File: mol97.png Graphic file (type png)
+<use mol97.png>
+Package pdftex.def Info: mol97.png  used on input line 601.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (24.96715pt too wide) in paragraph at lines 603--604
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])c2c(c3c(nc2[H])N= C(N3C([H])([H])C4=NO
+C(=C4[H])C([H])([H]) [H])O[H])[H])[H])[H] 
+ []
+
+<mol98.png, id=340, 451.6875pt x 451.6875pt>
+File: mol98.png Graphic file (type png)
+<use mol98.png>
+Package pdftex.def Info: mol98.png  used on input line 607.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (142.32854pt too wide) in paragraph at lines 609--610
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])C(F)(F)F)
+[H])[H])[H])[H])[H]) C(=O)N5[C@@](C(N(C(C5([H])[H])([H])[H])C
+ []
+
+<mol99.png, id=341, 451.6875pt x 451.6875pt>
+File: mol99.png Graphic file (type png)
+<use mol99.png>
+Package pdftex.def Info: mol99.png  used on input line 613.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (120.66174pt too wide) in paragraph at lines 615--616
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])c2c(c(c(c(c2F)[H] )C3=NC(=NO3)c4c(c(c(
+c(c4[H])[H])C([H])([ H])N5C(C(C(C(C5([H])[H])([H])[H])(C(=O)N
+ []
+
+
+Overfull \hbox (75.24515pt too wide) in paragraph at lines 615--616
+\OT1/cmr/m/n/10 ([H])C6(C(C(C(C(C6([H])[H])([H])[H])([H] )[H])([H])[H])([H])[H]
+)[H])C(=O)OC([H])( [H])c7c(c(c(c(c7[H])[H])[H])[H])[H])([H]
+ []
+
+<mol100.png, id=342, 451.6875pt x 451.6875pt>
+File: mol100.png Graphic file (type png)
+<use mol100.png>
+Package pdftex.def Info: mol100.png  used on input line 619.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (128.43968pt too wide) in paragraph at lines 621--622
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2C3(C(C(N(C(C3([ H])[H])([H])[H])C(=O
+)[C@](C([H])([H])[H] )(C(F)(F)F)O[H])([H])[H])([H])[H])[H])[H
+ []
+
+<mol101.png, id=343, 451.6875pt x 451.6875pt>
+File: mol101.png Graphic file (type png)
+<use mol101.png>
+Package pdftex.def Info: mol101.png  used on input line 625.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[76 <./mol75.png>]
+Overfull \hbox (125.93964pt too wide) in paragraph at lines 627--628
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(nc3c2N(C(=O)N3[H])[ H])[H])[H])[H])F)C([
+H])([H])N([H])C(=O)C 4=NC(=NO4)C(C([H])([H])[H])(C([H])([H])[
+ []
+
+<mol102.png, id=347, 451.6875pt x 451.6875pt>
+File: mol102.png Graphic file (type png)
+<use mol102.png>
+Package pdftex.def Info: mol102.png  used on input line 631.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (141.6352pt too wide) in paragraph at lines 633--634
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1C(=NO2)C3(C(C([N+](C(C3([ H])[H])([H])[H])([H]
+)C([H])([H])C([H])([ H])C4=C(N=C5C(C(C(C(N5C4=O)([H])[H])([H]
+ []
+
+<mol103.png, id=348, 451.6875pt x 451.6875pt>
+File: mol103.png Graphic file (type png)
+<use mol103.png>
+Package pdftex.def Info: mol103.png  used on input line 637.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol104.png, id=349, 451.6875pt x 451.6875pt>
+File: mol104.png Graphic file (type png)
+<use mol104.png>
+Package pdftex.def Info: mol104.png  used on input line 643.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (117.4674pt too wide) in paragraph at lines 645--646
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1OC(C(=O)N([H])C2=NOC(=C2[ H])C(C([H])([H])[H])
+(C([H])([H])[H])C([H ])([H])[H])(C([H])([H])[H])C([H])([H])[H
+ []
+
+<mol105.png, id=350, 451.6875pt x 451.6875pt>
+File: mol105.png Graphic file (type png)
+<use mol105.png>
+Package pdftex.def Info: mol105.png  used on input line 649.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (124.96844pt too wide) in paragraph at lines 651--652
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C([H])([H])C2=NC( =NO2)c3c(c(c(c(c3[H]
+)[H])C(=O)N(C4(C(C4( [H])[H])([H])[H])[H])C5(C(C(N(C(C5([H])[
+ []
+
+<mol106.png, id=351, 451.6875pt x 451.6875pt>
+File: mol106.png Graphic file (type png)
+<use mol106.png>
+Package pdftex.def Info: mol106.png  used on input line 655.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (114.57956pt too wide) in paragraph at lines 657--658
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c(c3c(c(c2[H])Br)N( C(=N3)C4=NOC5(C4([H]
+)[H])C(C(OC(C5([H])[ H])([H])[H])([H])[H])([H])[H])[H])[H])C(
+ []
+
+<mol107.png, id=352, 451.6875pt x 451.6875pt>
+File: mol107.png Graphic file (type png)
+<use mol107.png>
+Package pdftex.def Info: mol107.png  used on input line 661.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (117.46732pt too wide) in paragraph at lines 663--664
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c(c3c(c(c2[H])Cl)N= C(N3[H])C4=NOC5(C4([
+H])[H])C(C(C(C(C5([H ])[H])([H])[H])(C([H])([H])[H])C([H])([H
+ []
+
+<mol108.png, id=353, 451.6875pt x 451.6875pt>
+File: mol108.png Graphic file (type png)
+<use mol108.png>
+Package pdftex.def Info: mol108.png  used on input line 667.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (108.02185pt too wide) in paragraph at lines 669--670
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1[H])Cl)ON=C2C(C([H])([H]) [H])(C([H])([H])[H])
+N([H])C(=O)OC(C([H]) ([H])[H])(C([H])([H])[H])C([H])([H])[H])
+ []
+
+<mol109.png, id=354, 451.6875pt x 451.6875pt>
+File: mol109.png Graphic file (type png)
+<use mol109.png>
+Package pdftex.def Info: mol109.png  used on input line 673.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[77 <./mol76.png>]
+Overfull \hbox (128.30183pt too wide) in paragraph at lines 675--676
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C3(C(C(C3
+([H])[H])([H])[H])([ H])[H])C4=NOC(=N4)[C@]5(C(N=C(C(=N5)[H])
+ []
+
+<mol110.png, id=358, 451.6875pt x 451.6875pt>
+File: mol110.png Graphic file (type png)
+<use mol110.png>
+Package pdftex.def Info: mol110.png  used on input line 679.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.30185pt too wide) in paragraph at lines 681--682
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C3=NO[C@]([C@@]3(C(O2 )([H])[H])[H])([H])C
+([H])([H])N4C(C(N(C( C4([H])[H])([H])[H])C([H])([H])C([H])([H
+ []
+
+<mol111.png, id=359, 451.6875pt x 451.6875pt>
+File: mol111.png Graphic file (type png)
+<use mol111.png>
+Package pdftex.def Info: mol111.png  used on input line 685.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (82.46843pt too wide) in paragraph at lines 687--688
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=O)N3[C@](C4=C(N=C( N24)[H])C5=NC(=NO5)C
+([H])([H])[H])(C(C3( [H])[H])([H])[H])[H])[H])[H] 
+ []
+
+<mol112.png, id=360, 451.6875pt x 451.6875pt>
+File: mol112.png Graphic file (type png)
+<use mol112.png>
+Package pdftex.def Info: mol112.png  used on input line 691.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (94.96838pt too wide) in paragraph at lines 693--694
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1C#N)[H])c(c(c(n2)O[H])C3= C(C(=NO3)C([H])([H])
+[H])[H])c4c(c(c(c(c4 [H])[H])C(=C([H])[H])[H])[H])[H])[H] 
+ []
+
+<mol113.png, id=361, 451.6875pt x 451.6875pt>
+File: mol113.png Graphic file (type png)
+<use mol113.png>
+Package pdftex.def Info: mol113.png  used on input line 697.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (108.0229pt too wide) in paragraph at lines 699--700
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@]2(c3c(c(c(c(c 3C(=O)N2C([H])([H])[
+H])[H])[H])C4=C(ON=C 4C([H])([H])[H])C([H])([H])[H])[H])[H])[
+ []
+
+<mol114.png, id=362, 451.6875pt x 451.6875pt>
+File: mol114.png Graphic file (type png)
+<use mol114.png>
+Package pdftex.def Info: mol114.png  used on input line 703.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (138.57976pt too wide) in paragraph at lines 705--706
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1N([H])C(=O)[C@@]2(C(C(N2S(= O)(=O)C([H])([H])C([
+H])([H])C([H])([H])[ H])([H])[H])([H])[H])[H])C(C([H])([H])[H
+ []
+
+<mol115.png, id=363, 451.6875pt x 225.84375pt>
+File: mol115.png Graphic file (type png)
+<use mol115.png>
+Package pdftex.def Info: mol115.png  used on input line 709.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+
+Overfull \hbox (122.46635pt too wide) in paragraph at lines 711--712
+[]\OT1/cmr/m/n/10 [H]C1=C(N(N=C1C(=O)N2C(C(C(C2([H])[H])(F )F)([H])[H])([H])[H]
+)C([H])([H])c3c(c4=N ON=c4nc3C([H])([H])[H])N([H])[H])[H] 
+ []
+
+<mol116.png, id=364, 451.6875pt x 451.6875pt>
+File: mol116.png Graphic file (type png)
+<use mol116.png>
+Package pdftex.def Info: mol116.png  used on input line 715.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (130.80075pt too wide) in paragraph at lines 717--718
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C2=NC(=NO2)C([H])([H] )[H])C(=O)N3[C@@]4([
+C@](C3([H])[H])(C(C( N(C4([H])[H])c5nc(c(c(n5)C([H])([H])[H])
+ []
+
+<mol117.png, id=365, 451.6875pt x 451.6875pt>
+File: mol117.png Graphic file (type png)
+<use mol117.png>
+Package pdftex.def Info: mol117.png  used on input line 721.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (137.60637pt too wide) in paragraph at lines 723--724
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1F)[H])[H])S(=O)(=O)C(C2=N N=C(N2[H])C3=C(C(=NO
+3)C(C([H])([H])[H])( C([H])([H])[H])C([H])([H])[H])[H])(C([H]
+ []
+
+<mol118.png, id=366, 451.6875pt x 451.6875pt>
+File: mol118.png Graphic file (type png)
+<use mol118.png>
+Package pdftex.def Info: mol118.png  used on input line 727.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[78 <./mol77.png>]
+<mol119.png, id=370, 451.6875pt x 451.6875pt>
+File: mol119.png Graphic file (type png)
+<use mol119.png>
+Package pdftex.def Info: mol119.png  used on input line 733.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+./report.tex:735: Undefined control sequence.
+l.735 [H]C1=C(ON=C1N([H])/C(=C(/[H])\C
+                                      ([H])([H ])[H])/[C@@]2(C(C(C(N(C2([H])...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (129.68861pt too wide) in paragraph at lines 735--736
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1N([H])/C(=C(/[H])([H])([H ])[H])/[C@@]2(C(C(C(N(
+C2([H])[H])C(=O)OC (C([H])([H])[H])(C([H])([H])[H])C([H])([
+ []
+
+<mol120.png, id=371, 451.6875pt x 451.6875pt>
+File: mol120.png Graphic file (type png)
+<use mol120.png>
+Package pdftex.def Info: mol120.png  used on input line 739.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (130.80075pt too wide) in paragraph at lines 741--742
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C2=NC(=NO2)C([H])([H] )[H])C(=O)N3C([C@@]4
+([C@](C3([H])[H])(C( N(C4([H])[H])c5nc(c(c(n5)C([H])([H])[H])
+ []
+
+<mol121.png, id=372, 451.6875pt x 451.6875pt>
+File: mol121.png Graphic file (type png)
+<use mol121.png>
+Package pdftex.def Info: mol121.png  used on input line 745.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (98.0218pt too wide) in paragraph at lines 747--748
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NOC(=N2)C3=C(O C4=C(C3([H])[H])C(C(
+C(C4=C([H])[H])([H]) [H])([H])[H])([H])[H])[H])[H])[H] 
+ []
+
+<mol122.png, id=373, 451.6875pt x 451.6875pt>
+File: mol122.png Graphic file (type png)
+<use mol122.png>
+Package pdftex.def Info: mol122.png  used on input line 751.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol123.png, id=374, 451.6875pt x 451.6875pt>
+File: mol123.png Graphic file (type png)
+<use mol123.png>
+Package pdftex.def Info: mol123.png  used on input line 757.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (111.49402pt too wide) in paragraph at lines 759--760
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])F)c2c(c(c3c(c2[H])N=C (N3[H])C4=NOC5(C4([H
+])[H])C(C(C(C(C5([H] )[H])([H])[H])([H])[H])([H])[H])([H])[H]
+ []
+
+<mol124.png, id=375, 451.6875pt x 451.6875pt>
+File: mol124.png Graphic file (type png)
+<use mol124.png>
+Package pdftex.def Info: mol124.png  used on input line 763.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (140.24522pt too wide) in paragraph at lines 765--766
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=N2)[H])[H])[H])C( =O)N(C3(C(C3([H])[H]
+)([H])[H])[H])C4(C(C (N(C(C4([H])[H])([H])[H])C(=O)OC(C([H])(
+ []
+
+<mol125.png, id=376, 451.6875pt x 451.6875pt>
+File: mol125.png Graphic file (type png)
+<use mol125.png>
+Package pdftex.def Info: mol125.png  used on input line 769.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (114.96852pt too wide) in paragraph at lines 771--772
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc2c1C(=C3N2[C@](C(N(C3=O)[H])( [H])[H])([H])C([H])(
+[H])[H])[H])C(=O)N([ H])C4=NOC(=C4[H])C([H])([H])[H])[H] 
+ []
+
+<mol126.png, id=377, 451.6875pt x 451.6875pt>
+File: mol126.png Graphic file (type png)
+<use mol126.png>
+Package pdftex.def Info: mol126.png  used on input line 775.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (123.57849pt too wide) in paragraph at lines 777--778
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=NO2)C([H])([H])C([ H])([H])C([H])([H])C
+(=O)N3C(C(C(C(C3([H] )[H])([H])[H])([H])C(=O)c4c(c(c(nc4[H])O
+ []
+
+<mol127.png, id=378, 451.6875pt x 451.6875pt>
+File: mol127.png Graphic file (type png)
+<use mol127.png>
+Package pdftex.def Info: mol127.png  used on input line 781.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (131.35634pt too wide) in paragraph at lines 783--784
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=O)N3[C@](C4=C(N=C( N24)[H])C5=NC(=NO5)C
+([H])([H])[H])(C(C(C 3([H])[H])([H])[H])([H])[H])[H])[H])[H] 
+ []
+
+<mol128.png, id=379, 451.6875pt x 451.6875pt>
+File: mol128.png Graphic file (type png)
+<use mol128.png>
+Package pdftex.def Info: mol128.png  used on input line 787.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[79 <./mol78.png>]
+Overfull \hbox (151.21642pt too wide) in paragraph at lines 789--790
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(F)(F)F)[H])[H])N2C(=O)C 3=C(C(=NN3[C@](C2([H
+])[H])([H])C([H])([H ])[H])[H])N([H])C(=O)C4=C(C(=NO4)C([H])(
+ []
+
+<mol129.png, id=384, 451.6875pt x 451.6875pt>
+File: mol129.png Graphic file (type png)
+<use mol129.png>
+Package pdftex.def Info: mol129.png  used on input line 793.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (40.24611pt too wide) in paragraph at lines 795--796
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1C([H])([H])N3C(C(C3([H])[ H])([H])C4=NC(=NO4)[
+H])([H])[H])[H])C(C( O2)([H])[H])([H])[H])[H] 
+ []
+
+<mol130.png, id=385, 451.6875pt x 451.6875pt>
+File: mol130.png Graphic file (type png)
+<use mol130.png>
+Package pdftex.def Info: mol130.png  used on input line 799.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.85631pt too wide) in paragraph at lines 801--802
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NOC(=C2[H])C3= C(C(C([C@]4(C(C([C@@
+]3(N4[H])[H])([H])[H ])([H])[H])[H])([H])[H])([H])[H])[H])[H]
+ []
+
+[80 <./mol79.png>] [81 <./mol80.png>] [82 <./mol81.png>] [83 <./mol82.png>]
+[84 <./mol83.png>] [85 <./mol84.png>] [86 <./mol85.png>] [87 <./mol86.png>]
+[88 <./mol87.png>] [89 <./mol88.png>] [90 <./mol89.png>] [91 <./mol90.png>]
+[92 <./mol91.png>] [93 <./mol92.png>] [94 <./mol93.png>] [95 <./mol94.png>]
+[96 <./mol95.png>] [97 <./mol96.png>] [98 <./mol97.png>] [99 <./mol98.png>]
+[100 <./mol99.png>] [101 <./mol100.png>] [102 <./mol101.png>] [103 <./mol102.pn
+g>] [104 <./mol103.png>] [105 <./mol104.png>] [106 <./mol105.png>] [107 <./mol1
+06.png>] [108 <./mol107.png>] [109 <./mol108.png>] [110 <./mol109.png>]
+[111 <./mol110.png>] [112 <./mol111.png>] [113 <./mol112.png>] [114 <./mol113.p
+ng>] [115 <./mol114.png>] [116 <./mol115.png>] [117 <./mol116.png>] [118 <./mol
+117.png>] [119 <./mol118.png>] [120 <./mol119.png>] [121 <./mol120.png>]
+[122 <./mol121.png>] [123 <./mol122.png>] [124 <./mol123.png>] [125 <./mol124.p
+ng>] [126 <./mol125.png>] [127 <./mol126.png>] [128 <./mol127.png>] [129 <./mol
+128.png>] [130 <./mol129.png>] [131 <./mol130.png>]
+<mol131.png, id=551, 451.6875pt x 451.6875pt>
+File: mol131.png Graphic file (type png)
+<use mol131.png>
+Package pdftex.def Info: mol131.png  used on input line 807.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (139.55075pt too wide) in paragraph at lines 809--810
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C2=NOC(=C2[H])C3=NN(c4c3c( c(c(c4[H])OC([H])([H
+])C([H])([H])OC([H]) ([H])[H])F)[H])[H])[H])C(=O)N5C(C(C5([H]
+ []
+
+<mol132.png, id=552, 451.6875pt x 451.6875pt>
+File: mol132.png Graphic file (type png)
+<use mol132.png>
+Package pdftex.def Info: mol132.png  used on input line 813.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (133.02187pt too wide) in paragraph at lines 815--816
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])N=C(O2)c3c(c(c(c(c3[H ])[H])C(=O)N([C@]4(C
+([C@@](C(C4([H])[H]) ([H])[H])([H])C5=NC(=NO5)C([H])([H])[H])
+ []
+
+<mol133.png, id=553, 451.6875pt x 225.84375pt>
+File: mol133.png Graphic file (type png)
+<use mol133.png>
+Package pdftex.def Info: mol133.png  used on input line 819.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+
+Overfull \hbox (126.07964pt too wide) in paragraph at lines 821--822
+[]\OT1/cmr/m/n/10 [H]c1c(c2=NON=c2c(c1[H])S(=O)(=O)N3c4c(c (c(c(c4OC(C3([H])[H]
+)([H])[H])N5C(C([N+] (C(C5([H])[H])([H])[H])([H])[H])([H])[H]
+ []
+
+<mol134.png, id=554, 451.6875pt x 451.6875pt>
+File: mol134.png Graphic file (type png)
+<use mol134.png>
+Package pdftex.def Info: mol134.png  used on input line 825.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (117.60628pt too wide) in paragraph at lines 827--828
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(nc(c2N([H])[H])N([H ])[H])[H])[H])[H])F)
+C([H])([H])N([H])C(= O)C3=NC(=NO3)C(C([H])([H])[H])(C([H])([H
+ []
+
+<mol135.png, id=555, 451.6875pt x 451.6875pt>
+File: mol135.png Graphic file (type png)
+<use mol135.png>
+Package pdftex.def Info: mol135.png  used on input line 831.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol136.png, id=556, 451.6875pt x 451.6875pt>
+File: mol136.png Graphic file (type png)
+<use mol136.png>
+Package pdftex.def Info: mol136.png  used on input line 837.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (139.41197pt too wide) in paragraph at lines 839--840
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1N([H])C(=O)[C@]2(C(N(C(C(O2 )([H])[H])([H])[H])C
+(=O)C3(C(C(OC(C3([H] )[H])([H])[H])([H])[H])([H])[H])[H])([H]
+ []
+
+<mol137.png, id=557, 451.6875pt x 451.6875pt>
+File: mol137.png Graphic file (type png)
+<use mol137.png>
+Package pdftex.def Info: mol137.png  used on input line 843.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol138.png, id=558, 451.6875pt x 451.6875pt>
+File: mol138.png Graphic file (type png)
+<use mol138.png>
+Package pdftex.def Info: mol138.png  used on input line 849.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (36.35713pt too wide) in paragraph at lines 851--852
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C3=c4c(c(c(c(c4=NO3)[ H])[H])N([H])c5c(c(c
+(c(c5[H])C(=O)O[H])[ H])[H])[H])C2=O)[H])[H] 
+ []
+
+<mol139.png, id=559, 451.6875pt x 451.6875pt>
+File: mol139.png Graphic file (type png)
+<use mol139.png>
+Package pdftex.def Info: mol139.png  used on input line 855.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (73.57838pt too wide) in paragraph at lines 857--858
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@]2(C(C(=NO2)c3 c(c(c4c(c3[H])N=C(N(
+C4=O)[H])[H])[H])[H] )([H])[H])C([H])([H])[H])[H])[H] 
+ []
+
+<mol140.png, id=560, 451.6875pt x 225.84375pt>
+File: mol140.png Graphic file (type png)
+<use mol140.png>
+Package pdftex.def Info: mol140.png  used on input line 861.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+
+Overfull \hbox (64.96834pt too wide) in paragraph at lines 863--864
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])N2C(=O)C(=C(N2C([ H])([H])[H])C([H])([
+H])[H])N([H])c3c(c4= NON=c4c(c3[H])Cl)[H])[H])[H] 
+ []
+
+<mol141.png, id=561, 451.6875pt x 451.6875pt>
+File: mol141.png Graphic file (type png)
+<use mol141.png>
+Package pdftex.def Info: mol141.png  used on input line 867.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (156.3564pt too wide) in paragraph at lines 869--870
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NOC(=C2[H])N([ H])C(=O)[C@@]3(C(C(C
+(C(N3C(=O)N4C(C(S(=O )(=O)C(C4([H])[H])([H])[H])([H])[H])([H]
+ []
+
+[132
+
+ <./mol131.png>]
+<mol142.png, id=565, 451.6875pt x 451.6875pt>
+File: mol142.png Graphic file (type png)
+<use mol142.png>
+Package pdftex.def Info: mol142.png  used on input line 873.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (102.19066pt too wide) in paragraph at lines 875--876
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@]2(c3c(c(c(c(c 3OC(N2[H])([H])[H])[
+H])[H])C4=C(ON=C4C([ H])([H])[H])C([H])([H])[H])[H])[H])[H])[
+ []
+
+<mol143.png, id=566, 451.6875pt x 451.6875pt>
+File: mol143.png Graphic file (type png)
+<use mol143.png>
+Package pdftex.def Info: mol143.png  used on input line 879.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (142.04962pt too wide) in paragraph at lines 881--882
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1c3c(c(c(c(n3)[H])N4C(=C(C (=C(C4=O)[H])[H])[H]
+)[H])[H])[H])F)N(N=C 2C(=O)N([H])[H])c5c(c(c6c(c5[H])C(=NO6)N
+ []
+
+<mol144.png, id=567, 451.6875pt x 451.6875pt>
+File: mol144.png Graphic file (type png)
+<use mol144.png>
+Package pdftex.def Info: mol144.png  used on input line 885.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (103.57738pt too wide) in paragraph at lines 887--888
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC3=C2C(C(C(C3([H])[H ])([H])[H])([H])[H])
+([H])[H])[H])OC([H]) ([H])[H])N4C(=C(N=C4[H])[H])[H])[H] 
+ []
+
+<mol145.png, id=568, 451.6875pt x 451.6875pt>
+File: mol145.png Graphic file (type png)
+<use mol145.png>
+Package pdftex.def Info: mol145.png  used on input line 891.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (119.96631pt too wide) in paragraph at lines 893--894
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1c(nc(n2)[H])N3C([C@@](C(C (C3([H])[H])([H])[H]
+)([H])[H])([H])C4=NC (=NO4)C([H])([H])[H])([H])[H])[H])N5C(C(
+ []
+
+<mol146.png, id=569, 451.6875pt x 451.6875pt>
+File: mol146.png Graphic file (type png)
+<use mol146.png>
+Package pdftex.def Info: mol146.png  used on input line 897.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (138.71742pt too wide) in paragraph at lines 899--900
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C2=NOC(=C2[H])C3=NN(c4c3c( c(c(c4[H])OC([H])([H
+])C([H])([H])OC([H]) ([H])[H])F)[H])[H])[H])N5C(C(S(=O)C(C5([
+ []
+
+[133 <./mol132.png>] [134 <./mol133.png>] [135 <./mol134.png>] [136 <./mol135.p
+ng>] [137 <./mol136.png>] [138 <./mol137.png>] [139 <./mol138.png>] [140 <./mol
+139.png>] [141 <./mol140.png>] [142 <./mol141.png>] [143 <./mol142.png>]
+[144 <./mol143.png>] [145 <./mol144.png>] [146 <./mol145.png>] [147 <./mol146.p
+ng>]
+<mol147.png, id=618, 451.6875pt x 451.6875pt>
+File: mol147.png Graphic file (type png)
+<use mol147.png>
+Package pdftex.def Info: mol147.png  used on input line 905.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (119.133pt too wide) in paragraph at lines 907--908
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1S(=O)(=O)C(C([H])([H])[H] )(C([H])([H])[H])C([
+H])([H])N([H])C2=C(C (=NO2)C(C([H])([H])[H])(C([H])([H])[H])C
+ []
+
+<mol148.png, id=619, 451.6875pt x 451.6875pt>
+File: mol148.png Graphic file (type png)
+<use mol148.png>
+Package pdftex.def Info: mol148.png  used on input line 911.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (130.9397pt too wide) in paragraph at lines 913--914
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1F)[H])[H])S(=O)(=O)N(C([H ])([H])[H])C(C(=O)N(
+[H])C2=NOC(=C2[H])C( C([H])([H])[H])(C([H])([H])[H])C([H])([H
+ []
+
+<mol149.png, id=620, 451.6875pt x 451.6875pt>
+File: mol149.png Graphic file (type png)
+<use mol149.png>
+Package pdftex.def Info: mol149.png  used on input line 917.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (108.85628pt too wide) in paragraph at lines 919--920
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@@]2(C(=C(C(=C( [C@]2([H])C([H])([H]
+)C3(C(C(OC(C3([H])[H ])([H])[H])([H])[H])([H])[H])[H])[H])[H]
+ []
+
+<mol150.png, id=621, 451.6875pt x 451.6875pt>
+File: mol150.png Graphic file (type png)
+<use mol150.png>
+Package pdftex.def Info: mol150.png  used on input line 923.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (96.91292pt too wide) in paragraph at lines 925--926
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(=O)N([H])[H])[H])[H])C( [H])([H])C2=C3C(=NO2
+)C(C(OC3=O)(C([H])([ H])[H])C([H])([H])[H])([H])[H])[H] 
+ []
+
+<mol151.png, id=622, 451.6875pt x 451.6875pt>
+File: mol151.png Graphic file (type png)
+<use mol151.png>
+Package pdftex.def Info: mol151.png  used on input line 929.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (121.6352pt too wide) in paragraph at lines 931--932
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C3(C(C(C3
+([H])[H])([H])[H])([ H])[H])C4=NOC(=N4)N([H])S(=O)(=O)C([H])(
+ []
+
+<mol152.png, id=623, 451.6875pt x 451.6875pt>
+File: mol152.png Graphic file (type png)
+<use mol152.png>
+Package pdftex.def Info: mol152.png  used on input line 935.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (146.07971pt too wide) in paragraph at lines 937--938
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1N([H])C(=O)C2=C3C(=C(N2C( [H])([H])[H])[H])S(=
+O)(=O)N([C@](C(O3)([ H])[H])(C([H])([H])[H])C([H])([H])C4=NOC
+ []
+
+<mol153.png, id=624, 451.6875pt x 451.6875pt>
+File: mol153.png Graphic file (type png)
+<use mol153.png>
+Package pdftex.def Info: mol153.png  used on input line 941.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (134.13293pt too wide) in paragraph at lines 943--944
+[]\OT1/cmr/m/n/10 [H]c1c(nc(c-2c1N(c3c2c(c(c(c3[H])C4=C(ON =C4C([H])([H])[H])C(
+[H])([H])[H])OC([H]) ([H])[H])[H])[H])C5=C(N(N=C5C6(C(C6([H])
+ []
+
+<mol154.png, id=625, 451.6875pt x 451.6875pt>
+File: mol154.png Graphic file (type png)
+<use mol154.png>
+Package pdftex.def Info: mol154.png  used on input line 947.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (116.91289pt too wide) in paragraph at lines 949--950
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])c2c3c(c(c(c(c3nc( c2C4=C(C(=NO4)C(=O)N
+5C(C(OC(C5([H])[H])( [H])[H])([H])[H])([H])[H])[H])O[H])[H])[
+ []
+
+<mol155.png, id=626, 451.6875pt x 451.6875pt>
+File: mol155.png Graphic file (type png)
+<use mol155.png>
+Package pdftex.def Info: mol155.png  used on input line 953.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (95.24512pt too wide) in paragraph at lines 955--956
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C3(C(C(C(
+C(C3([H])[H])([H])[H ])([H])[H])([H])[H])([H])[H])C(=O)N([H])
+ []
+
+[148
+
+ <./mol147.png>]
+<mol156.png, id=630, 451.6875pt x 451.6875pt>
+File: mol156.png Graphic file (type png)
+<use mol156.png>
+Package pdftex.def Info: mol156.png  used on input line 959.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (108.85622pt too wide) in paragraph at lines 961--962
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c(c(c3c(c2[H])N(C(= N3)C4=NOC5(C4([H])[H
+])C(C(C(C(C5([H])[H] )([H])[H])([H])[H])([H])[H])([H])[H])[H]
+ []
+
+<mol157.png, id=631, 451.6875pt x 451.6875pt>
+File: mol157.png Graphic file (type png)
+<use mol157.png>
+Package pdftex.def Info: mol157.png  used on input line 965.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (156.91197pt too wide) in paragraph at lines 967--968
+[]\OT1/cmr/m/n/10 [H]c1c(nc(nc1N2C([C@@](O[C@@](C2([H])[H] )([H])C([H])([H])[H]
+)([H])C3=NC(=NO3)C([ H])([H])[H])([H])[H])C4=C(N=C5N4C(=C(C(=
+ []
+
+<mol158.png, id=632, 451.6875pt x 451.6875pt>
+File: mol158.png Graphic file (type png)
+<use mol158.png>
+Package pdftex.def Info: mol158.png  used on input line 971.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol159.png, id=633, 451.6875pt x 451.6875pt>
+File: mol159.png Graphic file (type png)
+<use mol159.png>
+Package pdftex.def Info: mol159.png  used on input line 977.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (121.63518pt too wide) in paragraph at lines 979--980
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[N+](=O)[O-])[H])[H])Oc2c (c(c(c(c2C3=C(C(=NO3
+)C(=O)N([H])C([H])([ H])C([H])([H])[H])[H])O[H])[H])O[H])[H])
+ []
+
+<mol160.png, id=634, 451.6875pt x 451.6875pt>
+File: mol160.png Graphic file (type png)
+<use mol160.png>
+Package pdftex.def Info: mol160.png  used on input line 983.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.30063pt too wide) in paragraph at lines 985--986
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])c(nc(c2c3c(c(c(c(c3O[ H])[H])O[H])C4=NOC(=
+C4c5c(c(c(c(c5[H])[H ])OC([H])([H])[H])[H])[H])N([H])C(=O)C6(
+ []
+
+<mol161.png, id=635, 451.6875pt x 451.6875pt>
+File: mol161.png Graphic file (type png)
+<use mol161.png>
+Package pdftex.def Info: mol161.png  used on input line 989.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (97.74626pt too wide) in paragraph at lines 991--992
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])OC([H])([H])C([H])(C( [H])([H])[H])C([H])(
+[H])[H])[H])C([H])([ H])[N@@+]2(C([C@](C(C2([H])[H])([H])[H])
+ []
+
+<mol162.png, id=636, 451.6875pt x 451.6875pt>
+File: mol162.png Graphic file (type png)
+<use mol162.png>
+Package pdftex.def Info: mol162.png  used on input line 995.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (57.1906pt too wide) in paragraph at lines 997--998
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1[H])C2=NOC(=C2[H])C([H])([ H])N3C(C(N(C(C3([H])
+[H])([H])[H])N([H])[ H])([H])[H])([H])[H])[H])[H] 
+ []
+
+<mol163.png, id=637, 451.6875pt x 451.6875pt>
+File: mol163.png Graphic file (type png)
+<use mol163.png>
+Package pdftex.def Info: mol163.png  used on input line 1001.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (150.10638pt too wide) in paragraph at lines 1003--1004
+[]\OT1/cmr/m/n/10 [H]c1c2c(c(c(c1F)OC([H])([H])C([H])([H]) OC([H])([H])[H])[H])
+N(N=C2C3=C(C(=NO3)C4 =NC(=C(S4)C(=O)N(C([H])([H])[H])C([H])([
+ []
+
+<mol164.png, id=638, 451.6875pt x 451.6875pt>
+File: mol164.png Graphic file (type png)
+<use mol164.png>
+Package pdftex.def Info: mol164.png  used on input line 1007.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[149 <./mol148.png>]
+Overfull \hbox (153.57861pt too wide) in paragraph at lines 1009--1010
+[]\OT1/cmr/m/n/10 [H]c1c(nc(nc1N2C([C@](O[C@](C2([H])[H])( [H])C([H])([H])[H])(
+[H])C3=NC(=NO3)C([H] )([H])[H])([H])[H])C4=C(N=C5N4C(=C(C(=C5
+ []
+
+<mol165.png, id=642, 451.6875pt x 451.6875pt>
+File: mol165.png Graphic file (type png)
+<use mol165.png>
+Package pdftex.def Info: mol165.png  used on input line 1013.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (150.52193pt too wide) in paragraph at lines 1015--1016
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1[C@@](C3=NN=C4N3C(=C(C(=C 4F)[H])C5=C(C(=NO5)C
+([H])([H])[H])[H])[H ])(C([H])([H])[H])F)[H])c(c(c(n2)[H])OC(
+ []
+
+<mol166.png, id=643, 451.6875pt x 451.6875pt>
+File: mol166.png Graphic file (type png)
+<use mol166.png>
+Package pdftex.def Info: mol166.png  used on input line 1019.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (122.46848pt too wide) in paragraph at lines 1021--1022
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=N[C@@](C3=C2C(=NO3 )C([H])([H])[H])([H]
+)C([H])([H])C(=O)N([ H])[H])c4c(c(c(c(c4[H])[H])Cl)[H])[H])[H
+ []
+
+<mol167.png, id=644, 451.6875pt x 451.6875pt>
+File: mol167.png Graphic file (type png)
+<use mol167.png>
+Package pdftex.def Info: mol167.png  used on input line 1025.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (24.41164pt too wide) in paragraph at lines 1027--1028
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])c(c(c(n2)[H])C3=NOC(= N3)[C@@]4(C(C(C(O4)(
+[H])[H])([H])[H])([H ])[H])[H])[H])[H])[H] 
+ []
+
+<mol168.png, id=645, 451.6875pt x 451.6875pt>
+File: mol168.png Graphic file (type png)
+<use mol168.png>
+Package pdftex.def Info: mol168.png  used on input line 1031.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (111.35739pt too wide) in paragraph at lines 1033--1034
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=C(ON=C2C([H])( [H])[H])[C@]3([C@]4(
+C(C([C@](N4[H])(C(C3 ([H])[H])([H])[H])[H])([H])[H])([H])[H])
+ []
+
+<mol169.png, id=646, 451.6875pt x 451.6875pt>
+File: mol169.png Graphic file (type png)
+<use mol169.png>
+Package pdftex.def Info: mol169.png  used on input line 1037.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (135.93965pt too wide) in paragraph at lines 1039--1040
+[]\OT1/cmr/m/n/10 [H]c1c(nc(c2c1C(=C(N2[H])[H])c3c(c(nc(n3 )N([H])[H])[H])F)C4(
+C(C4([H])[H])([H])[H ])[H])C#C[C@@](C5=NOC(=C5[H])C([H])([H])
+ []
+
+<mol170.png, id=647, 451.6875pt x 451.6875pt>
+File: mol170.png Graphic file (type png)
+<use mol170.png>
+Package pdftex.def Info: mol170.png  used on input line 1043.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (114.6896pt too wide) in paragraph at lines 1045--1046
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C([H])([H])N([H])C(=O)N([ H])C2=NOC(=C2[H])C(C
+([H])([H])[H])(C([H] )([H])[H])C([H])([H])[H])[H])[H])Oc3c(c(
+ []
+
+<mol171.png, id=648, 451.6875pt x 451.6875pt>
+File: mol171.png Graphic file (type png)
+<use mol171.png>
+Package pdftex.def Info: mol171.png  used on input line 1049.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol172.png, id=649, 451.6875pt x 451.6875pt>
+File: mol172.png Graphic file (type png)
+<use mol172.png>
+Package pdftex.def Info: mol172.png  used on input line 1055.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol173.png, id=650, 451.6875pt x 451.6875pt>
+File: mol173.png Graphic file (type png)
+<use mol173.png>
+Package pdftex.def Info: mol173.png  used on input line 1061.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[150 <./mol149.png>]
+Overfull \hbox (112.18852pt too wide) in paragraph at lines 1063--1064
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2C(=O)O[H])C([H] )([H])N3C(C(N(C(C3([
+H])[H])([H])[H])N([H ])[H])([H])[H])([H])[H])[H])[H])Cl)[H] 
+ []
+
+<mol174.png, id=654, 451.6875pt x 451.6875pt>
+File: mol174.png Graphic file (type png)
+<use mol174.png>
+Package pdftex.def Info: mol174.png  used on input line 1067.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+./report.tex:1069: Undefined control sequence.
+l.1069 [H]c1c(c(c2c(c1[H])N=C(S2)/N=C(\C
+                                        3(C(C3( [H])[H])([H])[H])C4=NOC(=C4[...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<mol175.png, id=655, 451.6875pt x 451.6875pt>
+File: mol175.png Graphic file (type png)
+<use mol175.png>
+Package pdftex.def Info: mol175.png  used on input line 1073.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (97.74626pt too wide) in paragraph at lines 1075--1076
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])OC([H])([H])C([H])(C( [H])([H])[H])C([H])(
+[H])[H])[H])C([H])([ H])[N@+]2(C([C@@](C(C2([H])[H])([H])[H])
+ []
+
+<mol176.png, id=656, 451.6875pt x 225.84375pt>
+File: mol176.png Graphic file (type png)
+<use mol176.png>
+Package pdftex.def Info: mol176.png  used on input line 1079.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+
+Overfull \hbox (139.1331pt too wide) in paragraph at lines 1081--1082
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)C2=NC(=NO2)C(C([H]) ([H])[H])(C([H])([H])[H])S(=O)(=O)C([H])
+ []
+
+<mol177.png, id=657, 451.6875pt x 451.6875pt>
+File: mol177.png Graphic file (type png)
+<use mol177.png>
+Package pdftex.def Info: mol177.png  used on input line 1085.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (147.0508pt too wide) in paragraph at lines 1087--1088
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])C(F)(F)F)
+[H])[H])[H])[H])[H]) C(=O)N5[C@@](C([N@@+](C(C5([H])[H])([H])
+ []
+
+<mol178.png, id=658, 451.6875pt x 451.6875pt>
+File: mol178.png Graphic file (type png)
+<use mol178.png>
+Package pdftex.def Info: mol178.png  used on input line 1091.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (13.30043pt too wide) in paragraph at lines 1093--1094
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=NC(C3=C2C(=NO3)C([ H])([H])[H])([H])[H]
+)c4c(c(c(c(c4[H])[H] )Cl)[H])[H])[H])[H] 
+ []
+
+<mol179.png, id=659, 451.6875pt x 451.6875pt>
+File: mol179.png Graphic file (type png)
+<use mol179.png>
+Package pdftex.def Info: mol179.png  used on input line 1097.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (37.46718pt too wide) in paragraph at lines 1099--1100
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NC(=NO2)c3c(c( c(c4c3OC(C(N(C4([H])
+[H])[H])([H])[H])([H ])[H])[H])[H])[H])[H])[H] 
+ []
+
+<mol180.png, id=660, 451.6875pt x 451.6875pt>
+File: mol180.png Graphic file (type png)
+<use mol180.png>
+Package pdftex.def Info: mol180.png  used on input line 1103.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (146.91191pt too wide) in paragraph at lines 1105--1106
+[]\OT1/cmr/m/n/10 [H]c1c(nc(nc1N2C([C@](C(C(C2([H])[H])([H ])[H])([H])[H])([H])
+C3=C(ON=C3[H])[H])([ H])[H])C4=C(N=C5N4C(=C(C(=C5[H])[H])Cl)[
+ []
+
+<mol181.png, id=661, 451.6875pt x 451.6875pt>
+File: mol181.png Graphic file (type png)
+<use mol181.png>
+Package pdftex.def Info: mol181.png  used on input line 1109.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol182.png, id=662, 451.6875pt x 451.6875pt>
+File: mol182.png Graphic file (type png)
+<use mol182.png>
+Package pdftex.def Info: mol182.png  used on input line 1115.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (109.13298pt too wide) in paragraph at lines 1117--1118
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[C@@]([H])(C([H])([H])[H] )O[H])[H])OC([H])([H
+])C([H])([H])[H])[H] )C2=C(ON=C2C([H])([H])[H])C([H])([H])[H] 
+ []
+
+<mol183.png, id=663, 451.6875pt x 451.6875pt>
+File: mol183.png Graphic file (type png)
+<use mol183.png>
+Package pdftex.def Info: mol183.png  used on input line 1121.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (38.57722pt too wide) in paragraph at lines 1123--1124
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])N(C(C3=C(N=C(N23)[H]) C4=NOC(=N4)C5(C(C5([
+H])[H])([H])[H])[H]) ([H])[H])[H])[H])[H] 
+ []
+
+<mol184.png, id=664, 451.6875pt x 451.6875pt>
+File: mol184.png Graphic file (type png)
+<use mol184.png>
+Package pdftex.def Info: mol184.png  used on input line 1127.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[151 <./mol150.png>]
+Overfull \hbox (119.1341pt too wide) in paragraph at lines 1129--1130
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1C3=C(ON=C3C([H])([H])[H]) C([H])([H])[H])[H])[
+C@](N(C(=O)N2[H])C([ H])([H])[H])([H])OC([H])([H])C([H])([H])
+ []
+
+<mol185.png, id=670, 451.6875pt x 451.6875pt>
+File: mol185.png Graphic file (type png)
+<use mol185.png>
+Package pdftex.def Info: mol185.png  used on input line 1133.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (91.91176pt too wide) in paragraph at lines 1135--1136
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@@]2(C(C(=NO2)c 3c(c(c4c(c3[H])C(C(C
+(=C4[H])[H])([H])[H] )([H])[H])[H])[H])([H])[H])[H])[H])[H] 
+ []
+
+<mol186.png, id=671, 451.6875pt x 451.6875pt>
+File: mol186.png Graphic file (type png)
+<use mol186.png>
+Package pdftex.def Info: mol186.png  used on input line 1139.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (123.02405pt too wide) in paragraph at lines 1141--1142
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C(C3=NOC(
+=N3)C4=C(N(N=C4[H])[ H])[H])(C([H])([H])[H])C([H])([H])[H])[H
+ []
+
+<mol187.png, id=672, 451.6875pt x 451.6875pt>
+File: mol187.png Graphic file (type png)
+<use mol187.png>
+Package pdftex.def Info: mol187.png  used on input line 1145.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (76.35622pt too wide) in paragraph at lines 1147--1148
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(=O)O[H])[H])[H])C([H])( [H])C2=C3C(=NO2)C(C(
+OC3=O)(C([H])([H])[H ])C([H])([H])[H])([H])[H])[H] 
+ []
+
+<mol188.png, id=673, 451.6875pt x 451.6875pt>
+File: mol188.png Graphic file (type png)
+<use mol188.png>
+Package pdftex.def Info: mol188.png  used on input line 1151.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (130.24408pt too wide) in paragraph at lines 1153--1154
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2C3=C(C(=NN3S(=O )(=O)c4c(c(c(c(c4[H]
+)[H])C([H])([H])[H]) [H])[H])[H])[H])C([H])([H])[H])[H])[H])C
+ []
+
+<mol189.png, id=674, 451.6875pt x 451.6875pt>
+File: mol189.png Graphic file (type png)
+<use mol189.png>
+Package pdftex.def Info: mol189.png  used on input line 1157.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (132.32852pt too wide) in paragraph at lines 1159--1160
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])OC([H])([
+H])C([H])([H])OC([H] )([H])[H])F)[H])[H])[H])[H])C(=O)N5[C@](
+ []
+
+<mol190.png, id=675, 451.6875pt x 451.6875pt>
+File: mol190.png Graphic file (type png)
+<use mol190.png>
+Package pdftex.def Info: mol190.png  used on input line 1163.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (130.93962pt too wide) in paragraph at lines 1165--1166
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])OC([H])([
+H])C([H])([H])OC([H] )([H])[H])F)[H])[H])[H])[H])C(=O)N(C([H]
+ []
+
+<mol191.png, id=676, 451.6875pt x 451.6875pt>
+File: mol191.png Graphic file (type png)
+<use mol191.png>
+Package pdftex.def Info: mol191.png  used on input line 1169.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (116.35623pt too wide) in paragraph at lines 1171--1172
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])c2c3c(c(c(c(c3nc( c2C4=C(C(=NO4)C([H])
+([H])[H])[H])O[H])[H ])[H])N([H])C(=O)C(=C([H])[H])[H])[H])[H
+ []
+
+<mol192.png, id=677, 451.6875pt x 451.6875pt>
+File: mol192.png Graphic file (type png)
+<use mol192.png>
+Package pdftex.def Info: mol192.png  used on input line 1175.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (142.05078pt too wide) in paragraph at lines 1177--1178
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])C(F)(F)F)
+[H])[H])[H])[H])[H]) C(=O)N5[C@@](C([N@+](C(C5([H])[H])([H])[
+ []
+
+[152 <./mol151.png>]
+<mol193.png, id=681, 451.6875pt x 451.6875pt>
+File: mol193.png Graphic file (type png)
+<use mol193.png>
+Package pdftex.def Info: mol193.png  used on input line 1181.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (138.02414pt too wide) in paragraph at lines 1183--1184
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1S(=O)(=O)C(C(=O)OC([H])([ H])C(=O)C2=NOC(=C2[H
+])C(C([H])([H])[H])( C([H])([H])[H])C([H])([H])[H])(C([H])([H
+ []
+
+<mol194.png, id=682, 451.6875pt x 451.6875pt>
+File: mol194.png Graphic file (type png)
+<use mol194.png>
+Package pdftex.def Info: mol194.png  used on input line 1187.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (137.3285pt too wide) in paragraph at lines 1189--1190
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])OC([H])([
+H])C([H])([H])OC([H] )([H])[H])F)[H])[H])[H])[H])C(=O)N5C(C(C
+ []
+
+<mol195.png, id=683, 451.6875pt x 451.6875pt>
+File: mol195.png Graphic file (type png)
+<use mol195.png>
+Package pdftex.def Info: mol195.png  used on input line 1193.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (119.96637pt too wide) in paragraph at lines 1195--1196
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)N([H])C(=O)C(C([H]) ([H])[H])(C([H])([H])[H])OC([H])([H])C2(
+ []
+
+<mol196.png, id=684, 451.6875pt x 451.6875pt>
+File: mol196.png Graphic file (type png)
+<use mol196.png>
+Package pdftex.def Info: mol196.png  used on input line 1199.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (124.13515pt too wide) in paragraph at lines 1201--1202
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])[C@@](C(C2([H])[H])([ H])[H])([H])O[H])C3=
+NOC(=N3)c4c(c(c(c(c4 [H])C#N)OC([H])(C([H])([H])[H])C([H])([H
+ []
+
+<mol197.png, id=685, 451.6875pt x 451.6875pt>
+File: mol197.png Graphic file (type png)
+<use mol197.png>
+Package pdftex.def Info: mol197.png  used on input line 1205.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol198.png, id=686, 451.6875pt x 451.6875pt>
+File: mol198.png Graphic file (type png)
+<use mol198.png>
+Package pdftex.def Info: mol198.png  used on input line 1211.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (98.85619pt too wide) in paragraph at lines 1213--1214
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1ON=C2C3(C(C(N(C(C3([H])[H ])([H])[H])c4c(c(c(n
+n4)c5c(c(nc(c5[H])C( [H])([H])[H])[H])[H])[H])[H])([H])[H])([
+ []
+
+<mol199.png, id=687, 451.6875pt x 451.6875pt>
+File: mol199.png Graphic file (type png)
+<use mol199.png>
+Package pdftex.def Info: mol199.png  used on input line 1217.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (24.68828pt too wide) in paragraph at lines 1219--1220
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NO[C@](C2([H]) [H])([H])c3c(c(c4c(c
+3[H])C(=O)N(C(=N4)[H ])[H])[H])[H])[H])[H] 
+ []
+
+<mol200.png, id=688, 451.6875pt x 451.6875pt>
+File: mol200.png Graphic file (type png)
+<use mol200.png>
+Package pdftex.def Info: mol200.png  used on input line 1223.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (132.18974pt too wide) in paragraph at lines 1225--1226
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1N([H])C(=O)C(C([H])([H])[H] )(C([H])([H])[H])S(=
+O)(=O)N([H])C([H])([ H])C([H])([H])[H])C(C([H])([H])[H])(C([H
+ []
+
+<mol201.png, id=689, 451.6875pt x 451.6875pt>
+File: mol201.png Graphic file (type png)
+<use mol201.png>
+Package pdftex.def Info: mol201.png  used on input line 1229.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[153 <./mol152.png>]
+Overfull \hbox (117.74527pt too wide) in paragraph at lines 1231--1232
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)N([H])C([H])([H])C( C([H])([H])[H])(C([H])([H])[H])S(=O)(=O)
+ []
+
+<mol202.png, id=693, 451.6875pt x 451.6875pt>
+File: mol202.png Graphic file (type png)
+<use mol202.png>
+Package pdftex.def Info: mol202.png  used on input line 1235.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (39.6884pt too wide) in paragraph at lines 1237--1238
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1N([H])C(=O)N(C([H])([H])[H] )C([H])([H])[H])C(C(
+[H])([H])[H])(C([H]) ([H])[H])C([H])([H])[H] 
+ []
+
+<mol203.png, id=694, 451.6875pt x 451.6875pt>
+File: mol203.png Graphic file (type png)
+<use mol203.png>
+Package pdftex.def Info: mol203.png  used on input line 1241.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol204.png, id=695, 451.6875pt x 451.6875pt>
+File: mol204.png Graphic file (type png)
+<use mol204.png>
+Package pdftex.def Info: mol204.png  used on input line 1247.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (130.13406pt too wide) in paragraph at lines 1249--1250
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])Br)[H])[H
+])[H])[H])[H])C(=O)N 5[C@@](C(C(C5([H])[H])([H])[H])([H])[H])
+ []
+
+[154 <./mol153.png>] [155 <./mol154.png>] [156 <./mol155.png>] [157 <./mol156.p
+ng>] [158 <./mol157.png>] [159 <./mol158.png>] [160 <./mol159.png>] [161 <./mol
+160.png>] [162 <./mol161.png>] [163 <./mol162.png>] [164 <./mol163.png>]
+[165 <./mol164.png>] [166 <./mol165.png>] [167 <./mol166.png>] [168 <./mol167.p
+ng>] [169 <./mol168.png>] [170 <./mol169.png>] [171 <./mol170.png>] [172 <./mol
+171.png>] [173 <./mol172.png>] [174 <./mol173.png>] [175 <./mol174.png>]
+[176 <./mol175.png>] [177 <./mol176.png>] [178 <./mol177.png>] [179 <./mol178.p
+ng>] [180 <./mol179.png>] [181 <./mol180.png>] [182 <./mol181.png>] [183 <./mol
+182.png>] [184 <./mol183.png>] [185 <./mol184.png>] [186 <./mol185.png>]
+[187 <./mol186.png>] [188 <./mol187.png>] [189 <./mol188.png>] [190 <./mol189.p
+ng>] [191 <./mol190.png>] [192 <./mol191.png>] [193 <./mol192.png>] [194 <./mol
+193.png>] [195 <./mol194.png>] [196 <./mol195.png>] [197 <./mol196.png>]
+[198 <./mol197.png>] [199 <./mol198.png>] [200 <./mol199.png>] [201 <./mol200.p
+ng>] [202 <./mol201.png>] [203 <./mol202.png>] [204 <./mol203.png>] [205 <./mol
+204.png>]
+<mol205.png, id=862, 451.6875pt x 451.6875pt>
+File: mol205.png Graphic file (type png)
+<use mol205.png>
+Package pdftex.def Info: mol205.png  used on input line 1255.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (134.96744pt too wide) in paragraph at lines 1257--1258
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C2=NOC(=N2)C3=C(N(N=C3[H]) C([H])([H])C(=O)N([H
+])C([H])([H])C([H])( [H])[H])[H])[H])c4c(nc(nc4[H])N([H])[H])
+ []
+
+<mol206.png, id=863, 451.6875pt x 451.6875pt>
+File: mol206.png Graphic file (type png)
+<use mol206.png>
+Package pdftex.def Info: mol206.png  used on input line 1261.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (116.6341pt too wide) in paragraph at lines 1263--1264
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1[H])C([H])([H])[H])ON=C2C (C([H])([H])[H])(C([
+H])([H])[H])N([H])C( =O)[C@@]3(C(N(C(C(O3)([H])[H])([H])[H])[
+ []
+
+<mol207.png, id=864, 451.6875pt x 451.6875pt>
+File: mol207.png Graphic file (type png)
+<use mol207.png>
+Package pdftex.def Info: mol207.png  used on input line 1267.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (111.07852pt too wide) in paragraph at lines 1269--1270
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[S@](=O)C(C([H])([H])[H]) (C([H])([H])[H])C([H
+])([H])N([H])C2=NOC( =C2[H])C(C([H])([H])[H])(C([H])([H])[H])
+ []
+
+<mol208.png, id=865, 451.6875pt x 451.6875pt>
+File: mol208.png Graphic file (type png)
+<use mol208.png>
+Package pdftex.def Info: mol208.png  used on input line 1273.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (127.19075pt too wide) in paragraph at lines 1275--1276
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(=O)N(C([H])([H])[H])C([ H])([H])[C@]([H])(C(
+=O)N([H])C2=NOC(=C2[ H])C(C([H])([H])[H])(C([H])([H])[H])C([H
+ []
+
+<mol209.png, id=866, 451.6875pt x 451.6875pt>
+File: mol209.png Graphic file (type png)
+<use mol209.png>
+Package pdftex.def Info: mol209.png  used on input line 1279.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (122.46739pt too wide) in paragraph at lines 1281--1282
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=NO2)C([H])([H])N3c 4c(c(c(c(c4N(C3=O)[C
+@@]([H])(C([H])([H]) C(=O)OC([H])([H])C([H])([H])[H])C([H])([
+ []
+
+<mol210.png, id=867, 451.6875pt x 451.6875pt>
+File: mol210.png Graphic file (type png)
+<use mol210.png>
+Package pdftex.def Info: mol210.png  used on input line 1285.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (126.0796pt too wide) in paragraph at lines 1287--1288
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C3(C(C(C3
+([H])[H])([H])[H])([ H])[H])C4=NOC(=N4)C5=C(N(N=C5[H])[H])[H]
+ []
+
+<mol211.png, id=868, 451.6875pt x 451.6875pt>
+File: mol211.png Graphic file (type png)
+<use mol211.png>
+Package pdftex.def Info: mol211.png  used on input line 1291.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (115.93967pt too wide) in paragraph at lines 1293--1294
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1[H])F)ON=C2C(C([H])([H])[ H])(C([H])([H])[H])N
+([H])C(=O)[C@@]3(C(N (C(C(O3)([H])[H])([H])[H])[H])([H])[H])[
+ []
+
+<mol212.png, id=869, 451.6875pt x 451.6875pt>
+File: mol212.png Graphic file (type png)
+<use mol212.png>
+Package pdftex.def Info: mol212.png  used on input line 1297.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (111.63403pt too wide) in paragraph at lines 1299--1300
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])c2c3c(c(c(c(c3nc( c2C4=C(C(=NO4)C([H])
+([H])[H])[H])O[H])[H ])[H])S(=O)(=O)C([H])([H])[H])[H])[H])[H
+ []
+
+<mol213.png, id=870, 451.6875pt x 451.6875pt>
+File: mol213.png Graphic file (type png)
+<use mol213.png>
+Package pdftex.def Info: mol213.png  used on input line 1303.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[206
+
+ <./mol205.png>]
+Overfull \hbox (118.5774pt too wide) in paragraph at lines 1305--1306
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1ON=C2C3(C(C(N(C(C3([H])[H ])([H])[H])c4c(c(c(n
+n4)N5C(=C(N=C5[H])[H ])[H])[H])[H])([H])[H])([H])[H])[H])[H])
+ []
+
+<mol214.png, id=874, 451.6875pt x 451.6875pt>
+File: mol214.png Graphic file (type png)
+<use mol214.png>
+Package pdftex.def Info: mol214.png  used on input line 1309.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (141.6341pt too wide) in paragraph at lines 1311--1312
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1C(=NO2)C3(C(C(N(C(C3([H]) [H])([H])[H])C([H])(
+[H])C([H])([H])C4=C( N=C5N(C4=O)C(C(N5C([H])([H])[H])([H])[H]
+ []
+
+<mol215.png, id=875, 451.6875pt x 451.6875pt>
+File: mol215.png Graphic file (type png)
+<use mol215.png>
+Package pdftex.def Info: mol215.png  used on input line 1315.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (134.55186pt too wide) in paragraph at lines 1317--1318
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])F)C2=NC(=NO2)C([H])([ H])[H])C(=O)N3C([C@@
+]4([C@](C3([H])[H])( C(N(C4([H])[H])c5nc(c(c(n5)C([H])([H])[H
+ []
+
+<mol216.png, id=876, 451.6875pt x 451.6875pt>
+File: mol216.png Graphic file (type png)
+<use mol216.png>
+Package pdftex.def Info: mol216.png  used on input line 1321.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (20.93942pt too wide) in paragraph at lines 1323--1324
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[C@@]([H])(C2=NOC(=C2[H]) [H])F)[H])[H])C([H])
+([H])N3C(=C(N=N3)C(= O)O[H])[H])[H] 
+ []
+
+<mol217.png, id=877, 451.6875pt x 451.6875pt>
+File: mol217.png Graphic file (type png)
+<use mol217.png>
+Package pdftex.def Info: mol217.png  used on input line 1327.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (108.30072pt too wide) in paragraph at lines 1329--1330
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(nc1[H])C(=O)N2C([C@@]3([C@](C 2([H])[H])(C(N(C3([H
+])[H])c4nc(c(c(n4)C( [H])([H])[H])[H])C([H])([H])[H])([H])[H]
+ []
+
+<mol218.png, id=878, 451.6875pt x 451.6875pt>
+File: mol218.png Graphic file (type png)
+<use mol218.png>
+Package pdftex.def Info: mol218.png  used on input line 1333.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (132.19073pt too wide) in paragraph at lines 1335--1336
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C3(C(C(C3
+([H])[H])([H])[H])([ H])[H])C4=NOC(=N4)[C@@]5(C(N=C(C(=N5)[H]
+ []
+
+<mol219.png, id=879, 451.6875pt x 451.6875pt>
+File: mol219.png Graphic file (type png)
+<use mol219.png>
+Package pdftex.def Info: mol219.png  used on input line 1339.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (126.63516pt too wide) in paragraph at lines 1341--1342
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1N=C(O2)C([H])([H])C([H])( [H])C([H])([H])[H])[
+H])N([H])C(=O)N3C(C( C(C(C3([H])[H])([H])[H])([H])C4=NOc5c4c(
+ []
+
+<mol220.png, id=880, 451.6875pt x 451.6875pt>
+File: mol220.png Graphic file (type png)
+<use mol220.png>
+Package pdftex.def Info: mol220.png  used on input line 1345.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[207 <./mol206.png>] [208 <./mol207.png>] [209 <./mol208.png>] [210 <./mol209.p
+ng>] [211 <./mol210.png>] [212 <./mol211.png>] [213 <./mol212.png>] [214 <./mol
+213.png>] [215 <./mol214.png>] [216 <./mol215.png>] [217 <./mol216.png>]
+[218 <./mol217.png>] [219 <./mol218.png>] [220 <./mol219.png>] [221 <./mol220.p
+ng>]
+<mol221.png, id=928, 451.6875pt x 451.6875pt>
+File: mol221.png Graphic file (type png)
+<use mol221.png>
+Package pdftex.def Info: mol221.png  used on input line 1353.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol222.png, id=929, 451.6875pt x 451.6875pt>
+File: mol222.png Graphic file (type png)
+<use mol222.png>
+Package pdftex.def Info: mol222.png  used on input line 1359.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol223.png, id=930, 451.6875pt x 451.6875pt>
+File: mol223.png Graphic file (type png)
+<use mol223.png>
+Package pdftex.def Info: mol223.png  used on input line 1365.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (5.79933pt too wide) in paragraph at lines 1367--1368
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NO[C@@](C2([H])[H])([H ])C3=Nc4c(c(c(c(c4C(
+=O)O3)[H])Cl)[H])[H] )[H])[H])Cl)[H] 
+ []
+
+<mol224.png, id=931, 451.6875pt x 451.6875pt>
+File: mol224.png Graphic file (type png)
+<use mol224.png>
+Package pdftex.def Info: mol224.png  used on input line 1371.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (143.1619pt too wide) in paragraph at lines 1373--1374
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C2=NOC(=C2[H])C3=NN(c4c3c( c(c(c4[H])OC([H])([H
+])C([H])([H])OC([H]) ([H])[H])F)[H])[H])[H])N5C(C(S(=O)(=O)C(
+ []
+
+<mol225.png, id=932, 451.6875pt x 451.6875pt>
+File: mol225.png Graphic file (type png)
+<use mol225.png>
+Package pdftex.def Info: mol225.png  used on input line 1377.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (113.8563pt too wide) in paragraph at lines 1379--1380
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])Cl)[H])[C@]2([C@@](C( N(C2([H])[H])C([H])(
+[H])[H])([H])[H])([H ])C3=NC(=NO3)C([H])(C([H])([H])[H])C([H]
+ []
+
+<mol226.png, id=933, 451.6875pt x 451.6875pt>
+File: mol226.png Graphic file (type png)
+<use mol226.png>
+Package pdftex.def Info: mol226.png  used on input line 1383.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol227.png, id=934, 451.6875pt x 451.6875pt>
+File: mol227.png Graphic file (type png)
+<use mol227.png>
+Package pdftex.def Info: mol227.png  used on input line 1389.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (137.3285pt too wide) in paragraph at lines 1391--1392
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C3=NN(c4c3c (c(c(c4[H])OC([H])([
+H])C([H])([H])OC([H] )([H])[H])F)[H])[H])[H])[H])C(=O)N5C(C(C
+ []
+
+<mol228.png, id=935, 451.6875pt x 451.6875pt>
+File: mol228.png Graphic file (type png)
+<use mol228.png>
+Package pdftex.def Info: mol228.png  used on input line 1395.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (28.5783pt too wide) in paragraph at lines 1397--1398
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NOC(=C2c3c(c(c (c(c3[H])[H])S(=O)(=
+O)N([H])[H])[H])[H]) C([H])([H])[H])[H])[H] 
+ []
+
+<mol229.png, id=936, 451.6875pt x 451.6875pt>
+File: mol229.png Graphic file (type png)
+<use mol229.png>
+Package pdftex.def Info: mol229.png  used on input line 1401.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (137.32861pt too wide) in paragraph at lines 1403--1404
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1F)[H])[H])S(=O)(=O)[C@@]( [H])(C([H])([H])[H])
+C([H])([H])C2=NN=C(S 2)C3=C(C(=NO3)C(C([H])([H])[H])(C([H])([
+ []
+
+<mol230.png, id=937, 451.6875pt x 451.6875pt>
+File: mol230.png Graphic file (type png)
+<use mol230.png>
+Package pdftex.def Info: mol230.png  used on input line 1407.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (117.74524pt too wide) in paragraph at lines 1409--1410
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)N([H])C(=O)N([H])C( [H])([H])C(C([H])([H])[H])(C([H])([H])[H
+ []
+
+<mol231.png, id=938, 451.6875pt x 451.6875pt>
+File: mol231.png Graphic file (type png)
+<use mol231.png>
+Package pdftex.def Info: mol231.png  used on input line 1413.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (31.9116pt too wide) in paragraph at lines 1415--1416
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C2=NOC(=N2)C([H])([H] )[H])C([H])([H])[H])
+c3c(c(c4c(c3[H])N=C( N4[H])O[H])[H])[H])[H] 
+ []
+
+<mol232.png, id=939, 451.6875pt x 451.6875pt>
+File: mol232.png Graphic file (type png)
+<use mol232.png>
+Package pdftex.def Info: mol232.png  used on input line 1419.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[222
+
+ <./mol221.png>]
+Overfull \hbox (131.07854pt too wide) in paragraph at lines 1421--1422
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C#N)[H])[H])C2=C(C(=NO2)C (=O)N(C3(C(C3([H])[H
+])([H])[H])[H])C4(C( C(N(C(C4([H])[H])([H])[H])[H])([H])[H])(
+ []
+
+<mol233.png, id=943, 451.6875pt x 451.6875pt>
+File: mol233.png Graphic file (type png)
+<use mol233.png>
+Package pdftex.def Info: mol233.png  used on input line 1425.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (124.68854pt too wide) in paragraph at lines 1427--1428
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(=O)N([H])[C@@]2([C@]3(C (C([C@@]2(N(C3([H])[
+H])c4c5c(c(c(n4)[H]) Cl)C(=NO5)N([H])[H])[H])([H])[H])([H])[H
+ []
+
+<mol234.png, id=944, 451.6875pt x 451.6875pt>
+File: mol234.png Graphic file (type png)
+<use mol234.png>
+Package pdftex.def Info: mol234.png  used on input line 1431.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol235.png, id=945, 451.6875pt x 451.6875pt>
+File: mol235.png Graphic file (type png)
+<use mol235.png>
+Package pdftex.def Info: mol235.png  used on input line 1437.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (108.29965pt too wide) in paragraph at lines 1439--1440
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1[C@](C2=NOC(=N2)N([H])C([H ])([H])C([H])([H])O[
+H])(C([H])([H])[H])C ([H])(C([H])([H])[H])C([H])([H])[H])[H])
+ []
+
+<mol236.png, id=946, 451.6875pt x 451.6875pt>
+File: mol236.png Graphic file (type png)
+<use mol236.png>
+Package pdftex.def Info: mol236.png  used on input line 1443.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol237.png, id=947, 451.6875pt x 451.6875pt>
+File: mol237.png Graphic file (type png)
+<use mol237.png>
+Package pdftex.def Info: mol237.png  used on input line 1449.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (34.68944pt too wide) in paragraph at lines 1451--1452
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])[C@]3(C(=C(N(C(=S)N3[ H])C4=NOC(=C4[H])C([
+H])([H])[H])[H])C(=O )N2[H])[H])[H])[H] 
+ []
+
+<mol238.png, id=948, 451.6875pt x 451.6875pt>
+File: mol238.png Graphic file (type png)
+<use mol238.png>
+Package pdftex.def Info: mol238.png  used on input line 1455.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol239.png, id=949, 451.6875pt x 451.6875pt>
+File: mol239.png Graphic file (type png)
+<use mol239.png>
+Package pdftex.def Info: mol239.png  used on input line 1461.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (111.6329pt too wide) in paragraph at lines 1463--1464
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c(c(c3c(c2[H])N=C(N 3[H])C4=NOC5(C4([H])
+[H])C(C(OC(C5([H])[H ])([H])[H])([H])[H])([H])[H])[H])[H])Cl)
+ []
+
+<mol240.png, id=950, 451.6875pt x 451.6875pt>
+File: mol240.png Graphic file (type png)
+<use mol240.png>
+Package pdftex.def Info: mol240.png  used on input line 1467.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol241.png, id=951, 451.6875pt x 451.6875pt>
+File: mol241.png Graphic file (type png)
+<use mol241.png>
+Package pdftex.def Info: mol241.png  used on input line 1473.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (36.35722pt too wide) in paragraph at lines 1475--1476
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])N([H])C(=O)OC(C([H])( [H])[H])(C([H])([H])
+[H])C([H])([H])[H])[ H])C2=NOC(=N2)O[H])[H] 
+ []
+
+<mol242.png, id=952, 451.6875pt x 451.6875pt>
+File: mol242.png Graphic file (type png)
+<use mol242.png>
+Package pdftex.def Info: mol242.png  used on input line 1479.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (121.91078pt too wide) in paragraph at lines 1481--1482
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1Cl)N2[C@](C(C2([H])[H])([H ])[H])([H])C(=O)N([H
+])C3=C(C(=NO3)C(C([H ])([H])[H])(C([H])([H])[H])C([H])([H])O[
+ []
+
+[223 <./mol222.png>]
+<mol243.png, id=957, 451.6875pt x 451.6875pt>
+File: mol243.png Graphic file (type png)
+<use mol243.png>
+Package pdftex.def Info: mol243.png  used on input line 1485.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (112.52403pt too wide) in paragraph at lines 1487--1488
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(nc1[H])ON=C2N([H])C(=O)N3C(C( N(C(C3([H])[H])([H])
+[H])C([H])([H])c4c(c (c(c(c4[H])Br)Br)[H])[H])([H])[H])([H])[
+ []
+
+<mol244.png, id=958, 451.6875pt x 451.6875pt>
+File: mol244.png Graphic file (type png)
+<use mol244.png>
+Package pdftex.def Info: mol244.png  used on input line 1491.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (135.2442pt too wide) in paragraph at lines 1493--1494
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C([H])(C([H])([H])[H])C([H] )([H])[H])N([H])C(=O
+)C(C([H])([H])[H])(C ([H])([H])[H])S(=O)(=O)N2C(C(C2([H])[H])
+ []
+
+<mol245.png, id=959, 451.6875pt x 225.84375pt>
+File: mol245.png Graphic file (type png)
+<use mol245.png>
+Package pdftex.def Info: mol245.png  used on input line 1497.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+
+Overfull \hbox (139.1331pt too wide) in paragraph at lines 1499--1500
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)C2=NOC(=N2)C(C([H]) ([H])[H])(C([H])([H])[H])S(=O)(=O)C([H])
+ []
+
+<mol246.png, id=960, 451.6875pt x 451.6875pt>
+File: mol246.png Graphic file (type png)
+<use mol246.png>
+Package pdftex.def Info: mol246.png  used on input line 1503.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (67.46837pt too wide) in paragraph at lines 1505--1506
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])C3(C(C(C3
+([H])[H])([H])[H])([ H])[H])C4=NOC(=N4)N([H])[H])[H] 
+ []
+
+<mol247.png, id=961, 451.6875pt x 451.6875pt>
+File: mol247.png Graphic file (type png)
+<use mol247.png>
+Package pdftex.def Info: mol247.png  used on input line 1509.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol248.png, id=962, 451.6875pt x 451.6875pt>
+File: mol248.png Graphic file (type png)
+<use mol248.png>
+Package pdftex.def Info: mol248.png  used on input line 1515.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (110.52402pt too wide) in paragraph at lines 1517--1518
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(nc(nc2[H])N([H])[H])[ H])[H])[H])[C@](C3=N
+OC(=N3)C4(C(C4([H])[ H])([H])[H])[H])(C([H])([H])[H])C([H])(C
+ []
+
+<mol249.png, id=963, 451.6875pt x 451.6875pt>
+File: mol249.png Graphic file (type png)
+<use mol249.png>
+Package pdftex.def Info: mol249.png  used on input line 1521.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (85.244pt too wide) in paragraph at lines 1523--1524
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=NC(C3=C(N=C(N23)[H ])C4=NC(=NO4)C([H])(
+C([H])([H])[H])C([H] )([H])[H])([H])[H])[H])[H])[H] 
+ []
+
+<mol250.png, id=964, 451.6875pt x 451.6875pt>
+File: mol250.png Graphic file (type png)
+<use mol250.png>
+Package pdftex.def Info: mol250.png  used on input line 1527.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (145.52199pt too wide) in paragraph at lines 1529--1530
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)C2=NN=C(O2)C(C([H]) ([H])[H])(C([H])([H])[H])S(=O)(=O)C3(C(C
+ []
+
+<mol251.png, id=965, 451.6875pt x 451.6875pt>
+File: mol251.png Graphic file (type png)
+<use mol251.png>
+Package pdftex.def Info: mol251.png  used on input line 1533.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.29959pt too wide) in paragraph at lines 1535--1536
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(c(c(n2)[H])O[C@]([H ])(C3=NC(=NO3)C([H])
+(C([H])([H])[H])C([H ])([H])[H])C4(C(C(N(C(C4([H])[H])([H])[H
+ []
+
+[224 <./mol223.png>]
+<mol252.png, id=969, 451.6875pt x 451.6875pt>
+File: mol252.png Graphic file (type png)
+<use mol252.png>
+Package pdftex.def Info: mol252.png  used on input line 1539.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (70.38287pt too wide) in paragraph at lines 1541--1542
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=NOC(=C2[H])C([H])([H]) N3C(C(N(C(C3([H])[H]
+)([H])[H])N([H])[H]) ([H])[H])([H])[H])[H])[H])F)[H] 
+ []
+
+<mol253.png, id=970, 451.6875pt x 451.6875pt>
+File: mol253.png Graphic file (type png)
+<use mol253.png>
+Package pdftex.def Info: mol253.png  used on input line 1545.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (20.80054pt too wide) in paragraph at lines 1547--1548
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])S(=O)(=O)C2=NO[N+ ](=C2S(=O)(=O)c3c(c(
+c(c(c3[H])[H])[H])[H ])[H])[O-])[H])[H] 
+ []
+
+<mol254.png, id=971, 451.6875pt x 451.6875pt>
+File: mol254.png Graphic file (type png)
+<use mol254.png>
+Package pdftex.def Info: mol254.png  used on input line 1551.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol255.png, id=972, 451.6875pt x 451.6875pt>
+File: mol255.png Graphic file (type png)
+<use mol255.png>
+Package pdftex.def Info: mol255.png  used on input line 1557.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (109.27293pt too wide) in paragraph at lines 1559--1560
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1C#N)[H])[C@]([C@](C(O2)(C ([H])([H])[H])C([H])
+([H])[H])([H])O[H])( [H])OC3=NOc4c3c(c(c(c4[H])[H])F)[H])[H] 
+ []
+
+<mol256.png, id=973, 451.6875pt x 451.6875pt>
+File: mol256.png Graphic file (type png)
+<use mol256.png>
+Package pdftex.def Info: mol256.png  used on input line 1563.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (158.02307pt too wide) in paragraph at lines 1565--1566
+[]\OT1/cmr/m/n/10 [H]c1c2c(c(c(c1F)OC([H])([H])C([H])([H]) OC([H])([H])[H])[H])
+N(N=C2C3=C(C(=NO3)C4 =NC(=C(S4)C(=O)N5C(C(C5([H])[H])([H])F)(
+ []
+
+<mol257.png, id=974, 451.6875pt x 451.6875pt>
+File: mol257.png Graphic file (type png)
+<use mol257.png>
+Package pdftex.def Info: mol257.png  used on input line 1569.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (127.74516pt too wide) in paragraph at lines 1571--1572
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[N+](=O)[O-])[H])[H])Oc2c (c(c(c(c2C3=C(C(=NO3
+)C(=O)N([H])C4(C(C(N (C(C4([H])[H])([H])[H])C([H])([H])[H])([
+ []
+
+<mol258.png, id=975, 451.6875pt x 225.84375pt>
+File: mol258.png Graphic file (type png)
+<use mol258.png>
+Package pdftex.def Info: mol258.png  used on input line 1575.
+(pdftex.def)             Requested size: 451.68639pt x 225.84319pt.
+<mol259.png, id=976, 451.6875pt x 451.6875pt>
+File: mol259.png Graphic file (type png)
+<use mol259.png>
+Package pdftex.def Info: mol259.png  used on input line 1581.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (5.66046pt too wide) in paragraph at lines 1583--1584
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c3c(nc2[H])N=C(N3C([H ])([H])C4=NC(=NO4)C(
+[H])([H])[H])O[H])[H ])[H])[H])F)[H] 
+ []
+
+<mol260.png, id=977, 451.6875pt x 451.6875pt>
+File: mol260.png Graphic file (type png)
+<use mol260.png>
+Package pdftex.def Info: mol260.png  used on input line 1587.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol261.png, id=978, 451.6875pt x 451.6875pt>
+File: mol261.png Graphic file (type png)
+<use mol261.png>
+Package pdftex.def Info: mol261.png  used on input line 1593.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (110.24622pt too wide) in paragraph at lines 1595--1596
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])c(c(c(n2)[H])C([H])([ H])N3C(C(N(C(C3([H])
+[H])([H])[H])C(=O)N( [H])C4=NOc5c4c(c(c(n5)[H])[H])[H])([H])[
+ []
+
+<mol262.png, id=979, 451.6875pt x 451.6875pt>
+File: mol262.png Graphic file (type png)
+<use mol262.png>
+Package pdftex.def Info: mol262.png  used on input line 1599.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (125.24626pt too wide) in paragraph at lines 1601--1602
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1[H])C([H])([H])C2=NC(=NO2) [C@@]3(C(C([N@+](C3(
+[H])[H])([H])C([H])( [H])c4c(c(c(c(c4[H])OC([H])([H])C([H])(C
+ []
+
+[225 <./mol224.png>]
+<mol263.png, id=983, 451.6875pt x 451.6875pt>
+File: mol263.png Graphic file (type png)
+<use mol263.png>
+Package pdftex.def Info: mol263.png  used on input line 1605.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (122.19069pt too wide) in paragraph at lines 1607--1608
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c(c(c2c(c1[H])C3=NC(=NO3)C( =O)OC([H])([H])C([H]
+)([H])[H])[H])[H])N( [H])S(=O)(=O)c4c(c(c(c(c4[H])Cl)[H])Cl)[
+ []
+
+<mol264.png, id=984, 451.6875pt x 451.6875pt>
+File: mol264.png Graphic file (type png)
+<use mol264.png>
+Package pdftex.def Info: mol264.png  used on input line 1611.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.30182pt too wide) in paragraph at lines 1613--1614
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])[C@@]2(c3c(c(c(c( c3OC([H])([H])[H])C4
+=C(ON=C4C([H])([H])[ H])C([H])([H])[H])[H])[H])C(=O)O2)[H])[H
+ []
+
+<mol265.png, id=985, 451.6875pt x 451.6875pt>
+File: mol265.png Graphic file (type png)
+<use mol265.png>
+Package pdftex.def Info: mol265.png  used on input line 1617.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (121.0786pt too wide) in paragraph at lines 1619--1620
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(C([H])([H])[H])(C([H])([H ])[H])C([H])([H])[H]
+)C(=O)N([H])C([H])([ H])C(C([H])([H])[H])(C([H])([H])[H])S(=O
+ []
+
+<mol266.png, id=986, 451.6875pt x 451.6875pt>
+File: mol266.png Graphic file (type png)
+<use mol266.png>
+Package pdftex.def Info: mol266.png  used on input line 1623.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (127.18861pt too wide) in paragraph at lines 1625--1626
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1N([H])C(=O)[C@@]2(C(C(C(N2C 3(C(C(C(C3([H])[H])(
+[H])[H])([H])[H])([H ])[H])[H])([H])[H])([H])[H])([H])[H])[H]
+ []
+
+<mol267.png, id=987, 451.6875pt x 451.6875pt>
+File: mol267.png Graphic file (type png)
+<use mol267.png>
+Package pdftex.def Info: mol267.png  used on input line 1629.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (126.07742pt too wide) in paragraph at lines 1631--1632
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1N(C(=C2C(C(=O)N([H])C3=NO C(=C3[H])C(C([H])([H
+])[H])(C([H])([H])[H ])C([H])([H])[H])(C([H])([H])[H])C([H])(
+ []
+
+<mol268.png, id=988, 451.6875pt x 451.6875pt>
+File: mol268.png Graphic file (type png)
+<use mol268.png>
+Package pdftex.def Info: mol268.png  used on input line 1635.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (136.35526pt too wide) in paragraph at lines 1637--1638
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=C(ON=C2C([H])([H])[H]) C([H])([H])[H])[H])[
+H])C([H])([H])N([H]) S(=O)(=O)C3=C(N(N=C3C([H])([H])[H])C([H]
+ []
+
+<mol269.png, id=989, 451.6875pt x 451.6875pt>
+File: mol269.png Graphic file (type png)
+<use mol269.png>
+Package pdftex.def Info: mol269.png  used on input line 1641.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (108.02182pt too wide) in paragraph at lines 1643--1644
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c2c1nc(c(c2C3(C(C(C(C(C3([H]) [H])([H])[H])([H])[H
+])([H])[H])([H])[H]) [H])C4=C(C(=NO4)C([H])([H])[H])[H])O[H])
+ []
+
+<mol270.png, id=990, 451.6875pt x 451.6875pt>
+File: mol270.png Graphic file (type png)
+<use mol270.png>
+Package pdftex.def Info: mol270.png  used on input line 1647.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[226 <./mol225.png>]
+Overfull \hbox (146.7719pt too wide) in paragraph at lines 1649--1650
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(nc3c2N=C(N3[H])C4=C (N(N=C4[H])C([H])([H
+])[H])[H])[H])[H])[H ])F)C([H])([H])N([H])C(=O)C5=NOC(=N5)C6(
+ []
+
+<mol271.png, id=994, 451.6875pt x 451.6875pt>
+File: mol271.png Graphic file (type png)
+<use mol271.png>
+Package pdftex.def Info: mol271.png  used on input line 1653.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (138.8563pt too wide) in paragraph at lines 1655--1656
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1c3c(c(nc4c3N(C(=O)N4[H])[ H])[H])[H])[H])C(C(C
+(C([C@]2([H])N([H])C (=O)C5=NC(=NO5)C(C([H])([H])[H])(C([H])(
+ []
+
+<mol272.png, id=995, 451.6875pt x 451.6875pt>
+File: mol272.png Graphic file (type png)
+<use mol272.png>
+Package pdftex.def Info: mol272.png  used on input line 1659.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (118.30074pt too wide) in paragraph at lines 1661--1662
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1N2c3c(c(nc(n3)N([H])[C@]4 (C([C@@](C(C4([H])[H
+])([H])[H])([H])C5=N OC(=N5)C([H])([H])[H])([H])[H])[H])[H])N
+ []
+
+<mol273.png, id=996, 451.6875pt x 451.6875pt>
+File: mol273.png Graphic file (type png)
+<use mol273.png>
+Package pdftex.def Info: mol273.png  used on input line 1665.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (127.60634pt too wide) in paragraph at lines 1667--1668
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C2=NC(=NO2)C([H])([H] )[H])C(=O)N([C@@]([H
+])(C([H])([H])[H])C( [H])([H])Oc3nc(c(c(n3)[H])C(F)(F)F)[H])C
+ []
+
+<mol274.png, id=997, 451.6875pt x 451.6875pt>
+File: mol274.png Graphic file (type png)
+<use mol274.png>
+Package pdftex.def Info: mol274.png  used on input line 1671.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (131.07744pt too wide) in paragraph at lines 1673--1674
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C(=O)N(C2(C(C2([H])[H])([H ])[H])[H])C3(C(C(N(C
+(C3([H])[H])([H])[H] )C4=NC(=NO4)C([H])(C([H])([H])[H])C([H])
+ []
+
+<mol275.png, id=998, 451.6875pt x 451.6875pt>
+File: mol275.png Graphic file (type png)
+<use mol275.png>
+Package pdftex.def Info: mol275.png  used on input line 1677.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (129.13303pt too wide) in paragraph at lines 1679--1680
+[]\OT1/cmr/m/n/10 [H]C1=C(ON=C1C(=O)N(C2(C(C(C(C(C2([H])[H ])([H])[H])([H])[H])
+([H])[H])([H])[H])[H ])C3(C(C(C(C(C3([H])[H])([H])[H])([H])[H
+ []
+
+<mol276.png, id=999, 451.6875pt x 451.6875pt>
+File: mol276.png Graphic file (type png)
+<use mol276.png>
+Package pdftex.def Info: mol276.png  used on input line 1683.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol277.png, id=1000, 451.6875pt x 451.6875pt>
+File: mol277.png Graphic file (type png)
+<use mol277.png>
+Package pdftex.def Info: mol277.png  used on input line 1689.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[227 <./mol226.png>] [228 <./mol227.png>] [229 <./mol228.png>] [230 <./mol229.p
+ng>] [231 <./mol230.png>] [232 <./mol231.png>] [233 <./mol232.png>] [234 <./mol
+233.png>] [235 <./mol234.png>] [236 <./mol235.png>] [237 <./mol236.png>]
+[238 <./mol237.png>] [239 <./mol238.png>] [240 <./mol239.png>] [241 <./mol240.p
+ng>] [242 <./mol241.png>] [243 <./mol242.png>] [244 <./mol243.png>] [245 <./mol
+244.png>] [246 <./mol245.png>] [247 <./mol246.png>] [248 <./mol247.png>]
+[249 <./mol248.png>] [250 <./mol249.png>] [251 <./mol250.png>] [252 <./mol251.p
+ng>] [253 <./mol252.png>] [254 <./mol253.png>] [255 <./mol254.png>] [256 <./mol
+255.png>] [257 <./mol256.png>] [258 <./mol257.png>] [259 <./mol258.png>]
+[260 <./mol259.png>] [261 <./mol260.png>] [262 <./mol261.png>] [263 <./mol262.p
+ng>] [264 <./mol263.png>] [265 <./mol264.png>] [266 <./mol265.png>] [267 <./mol
+266.png>] [268 <./mol267.png>] [269 <./mol268.png>] [270 <./mol269.png>]
+[271 <./mol270.png>] [272 <./mol271.png>] [273 <./mol272.png>] [274 <./mol273.p
+ng>] [275 <./mol274.png>] [276 <./mol275.png>] [277 <./mol276.png>] [278 <./mol
+277.png>]
+<mol278.png, id=1167, 451.6875pt x 451.6875pt>
+File: mol278.png Graphic file (type png)
+<use mol278.png>
+Package pdftex.def Info: mol278.png  used on input line 1697.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (122.60526pt too wide) in paragraph at lines 1699--1700
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C(F)(F)F)[H])OC(C(=O)N([H] )C2=C(C(=NO2)C(C([H]
+)([H])[H])(C([H])([H ])[H])C([H])([H])[H])[H])(C([H])([H])[H]
+ []
+
+<mol279.png, id=1168, 451.6875pt x 451.6875pt>
+File: mol279.png Graphic file (type png)
+<use mol279.png>
+Package pdftex.def Info: mol279.png  used on input line 1703.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol280.png, id=1169, 451.6875pt x 451.6875pt>
+File: mol280.png Graphic file (type png)
+<use mol280.png>
+Package pdftex.def Info: mol280.png  used on input line 1709.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (16.91158pt too wide) in paragraph at lines 1711--1712
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])C2=NC(=NO2)C([H])([H] )[H])C([H])([H])[H])
+c3c(c(c4c(c3[H])SC(= N4)O[H])[H])[H])[H] 
+ []
+
+<mol281.png, id=1170, 451.6875pt x 451.6875pt>
+File: mol281.png Graphic file (type png)
+<use mol281.png>
+Package pdftex.def Info: mol281.png  used on input line 1715.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol282.png, id=1171, 451.6875pt x 451.6875pt>
+File: mol282.png Graphic file (type png)
+<use mol282.png>
+Package pdftex.def Info: mol282.png  used on input line 1721.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (133.30074pt too wide) in paragraph at lines 1723--1724
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1c2c(c(nc3c2N(C(=O)N3[H])[ H])[H])[H])[H])C4(C(
+C4([H])[H])([H])[H]) [H])C([H])([H])N([H])C(=O)C5=NC(=NO5)C(C
+ []
+
+<mol283.png, id=1172, 451.6875pt x 451.6875pt>
+File: mol283.png Graphic file (type png)
+<use mol283.png>
+Package pdftex.def Info: mol283.png  used on input line 1727.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (4.4105pt too wide) in paragraph at lines 1729--1730
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1N([H])C(=O)C([H])([H])[H] )[H])[H])S(=NC2=NOC(
+=C2[H])C([H])([H])[H ])(=O)[O-])[H] 
+ []
+
+<mol284.png, id=1173, 451.6875pt x 451.6875pt>
+File: mol284.png Graphic file (type png)
+<use mol284.png>
+Package pdftex.def Info: mol284.png  used on input line 1733.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (73.0229pt too wide) in paragraph at lines 1735--1736
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1N([H])[H])[H])[H])S(=O)(= O)N(C2=C(C(=NO2)C([H
+])([H])[H])C([H])([H ])[H])C(=O)C([H])([H])[H])[H] 
+ []
+
+<mol285.png, id=1174, 451.6875pt x 451.6875pt>
+File: mol285.png Graphic file (type png)
+<use mol285.png>
+Package pdftex.def Info: mol285.png  used on input line 1739.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (139.96855pt too wide) in paragraph at lines 1741--1742
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=NOC(=C2[H])N([ H])C(=O)[C@@]3(C(C(C
+(C(N3C(=O)OC(C([H])( [H])[H])(C([H])([H])[H])C([H])([H])[H])(
+ []
+
+<mol286.png, id=1175, 451.6875pt x 451.6875pt>
+File: mol286.png Graphic file (type png)
+<use mol286.png>
+Package pdftex.def Info: mol286.png  used on input line 1745.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (3.71707pt too wide) in paragraph at lines 1747--1748
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])c2c3c(c(c(c(c3nc(c2C4 =C(C(=NO4)C([H])([H]
+)[H])[H])O[H])[H])[H ])Cl)[H])F)[H])[H] 
+ []
+
+<mol287.png, id=1176, 451.6875pt x 451.6875pt>
+File: mol287.png Graphic file (type png)
+<use mol287.png>
+Package pdftex.def Info: mol287.png  used on input line 1751.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (149.96748pt too wide) in paragraph at lines 1753--1754
+[]\OT1/cmr/m/n/10 [H]c1c(c2c(c(c1[H])S(=O)(=O)N([H])[H])C( =C(N2[C@@]([H])(C(=O
+)N3C(C(C(C(C3([H])[H ])([H])[H])([H])C4=NC(=NO4)c5c(nc(c(n5)[
+ []
+
+<mol288.png, id=1177, 451.6875pt x 451.6875pt>
+File: mol288.png Graphic file (type png)
+<use mol288.png>
+Package pdftex.def Info: mol288.png  used on input line 1757.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (44.41057pt too wide) in paragraph at lines 1759--1760
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])c(c(c(n2)C3=NOC(=N3)N 4C(C(N(C(C4([H])[H])
+([H])[H])[H])([H])[H ])([H])[H])[H])[H])[H])[H] 
+ []
+
+<mol289.png, id=1178, 451.6875pt x 451.6875pt>
+File: mol289.png Graphic file (type png)
+<use mol289.png>
+Package pdftex.def Info: mol289.png  used on input line 1763.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+<mol290.png, id=1179, 451.6875pt x 451.6875pt>
+File: mol290.png Graphic file (type png)
+<use mol290.png>
+Package pdftex.def Info: mol290.png  used on input line 1769.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+[279
+
+ <./mol278.png>]
+Overfull \hbox (34.13383pt too wide) in paragraph at lines 1771--1772
+[]\OT1/cmr/m/n/10 [H]c1c(c(c2c(c1[H])C(=O)C3=C(C2=O)ON=C3c 4c(c(c(c(c4[H])[H])O
+C([H])([H])C([H])([H ])[H])[H])[H])[H])[H] 
+ []
+
+<mol291.png, id=1183, 451.6875pt x 451.6875pt>
+File: mol291.png Graphic file (type png)
+<use mol291.png>
+Package pdftex.def Info: mol291.png  used on input line 1775.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (11.9116pt too wide) in paragraph at lines 1777--1778
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1[H])[H])C2=C(C(=NO2)C3=C( N4C(=O)C([C@]4(SC3([
+H])[H])[H])([H])[H]) [H])[H])[H])[H] 
+ []
+
+<mol292.png, id=1184, 451.6875pt x 451.6875pt>
+File: mol292.png Graphic file (type png)
+<use mol292.png>
+Package pdftex.def Info: mol292.png  used on input line 1781.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (134.55074pt too wide) in paragraph at lines 1783--1784
+[]\OT1/cmr/m/n/10 [H]c1c(c(nc(c1C2=NOC(=C2[H])C3=NN(c4c3c( c(c(c4[H])OC([H])([H
+])C([H])([H])OC([H]) ([H])[H])F)[H])[H])[H])N5C(C([N+](C(C5([
+ []
+
+<mol293.png, id=1185, 451.6875pt x 451.6875pt>
+File: mol293.png Graphic file (type png)
+<use mol293.png>
+Package pdftex.def Info: mol293.png  used on input line 1787.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (139.41078pt too wide) in paragraph at lines 1789--1790
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C2=C(ON=C2C([H])([H])[H]) C([H])([H])[H])[H])[
+H])C3=C(N4C(=C(N=C(C 4=N3)[H])[H])[H])N([H])C(C([H])([H])[H])
+ []
+
+<mol294.png, id=1186, 451.6875pt x 451.6875pt>
+File: mol294.png Graphic file (type png)
+<use mol294.png>
+Package pdftex.def Info: mol294.png  used on input line 1793.
+(pdftex.def)             Requested size: 451.68639pt x 451.68639pt.
+
+Overfull \hbox (140.6619pt too wide) in paragraph at lines 1795--1796
+[]\OT1/cmr/m/n/10 [H]c1c(c(c(c(c1C(F)(F)F)Cl)[H])N2C(=O)C3 =C(C(=NN3[C@](C2([H]
+)[H])([H])C([H])([H] )[H])[H])C4=NOC(=C4[H])c5c(nc(c(n5)[H])[
+ []
+
+[280 <./mol279.png>] [281 <./mol280.png>] [282 <./mol281.png>] [283 <./mol282.p
+ng>] [284 <./mol283.png>] [285 <./mol284.png>] [286 <./mol285.png>] [287 <./mol
+286.png>] [288 <./mol287.png>] [289 <./mol288.png>] [290 <./mol289.png>]
+[291 <./mol290.png>] [292 <./mol291.png>] [293 <./mol292.png>] [294 <./mol293.p
+ng>] [295 <./mol294.png>] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 4097 strings out of 477985
+ 62194 string characters out of 5840058
+ 1858388 words of memory out of 5000000
+ 24027 multiletter control sequences out of 15000+600000
+ 512287 words of font info for 32 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 57i,6n,62p,315b,216s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb>
+Output written on report.pdf (295 pages, 5419319 bytes).
+PDF statistics:
+ 1257 PDF objects out of 1440 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1476 words of extra memory for PDF output out of 10000 (max. 10000000)
+
