@@ -35,10 +35,10 @@ class Latex:
             start = MAX_LEN * i
             end = MAX_LEN * (i + 1)
             cap = caption[start:end]
-            self._buf.write(rf"\verb|{cap}|\n")
+            self._buf.write(rf"\verb|{cap}|" + "\n")
 
-        if self._num_images % 20 != 0:
-            self._buf.write(r"\clearpage")
+        if self._num_images % 20 == 0:
+            self._buf.write(r"\clearpage" + "\n")
 
     def to_file(self, filename):
         self._finalize()
