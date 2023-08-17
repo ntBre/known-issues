@@ -130,7 +130,7 @@ def plot_td_record(
     ax.set_ylabel("Relative energy [kcal mol$^{-1}$]")
     ax.set_title(f"{torsion_smirks}")
     plt.tight_layout()
-    plt.savefig(filename)
+    plt.savefig(filename, dpi=300)
     plt.close()
 
 
