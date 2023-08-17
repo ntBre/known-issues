@@ -112,8 +112,6 @@ def plot_td_record(
     energy -= min(energy)
 
     # get smiles and torsion specification
-    print("env = ", molecule.chemical_environment_matches(smirks))
-    print("dihedrals =  ", record.keywords.dihedrals[0])
     dihedrals = record.keywords.dihedrals[0]
     rdmol = molecule.to_rdkit()
     rwmol = Chem.RWMol(rdmol)
@@ -205,31 +203,50 @@ def check_coverage(target, force_field, datasets, plot_torsions):
     for ds, cover in zip(dataset, coverage):
         print(f"{ds:<{length}s} {cover}")
 
-    out = Latex()
-    for c, m in enumerate(involved_molecules[target]):
-        filename = f"mol{c:02d}.png"
-        draw_rdkit(m, f"output/{filename}", smirks)
-        out.add_image(filename, caption=m.to_smiles())
+    lr = len(involved_records[target])
+    lm = len(involved_molecules[target])
+    assert lr == lm, f"{lr} records vs {lm} molecules"
 
+    # filter duplicate molecules and use the indices to filter corresponding
+    # records
+    molecules = involved_molecules[target]
+    records = involved_records[target]
+
+    print("before", len(molecules), "and", len(records))
+    # deduplicate molecules and records by molecule inchi
+    mol_keys = {
+        m.to_inchi(): i for i, m in enumerate(involved_molecules[target])
+    }
+    molecules = [m for i, m in enumerate(molecules) if i in mol_keys.values()]
+    records = [r for i, r in enumerate(records) if i in mol_keys.values()]
+
+    print("deduplicated to", len(molecules), "and", len(records))
+
+    out = Latex()
     if plot_torsions:
-        lr = len(involved_records[target])
-        lm = len(involved_molecules[target])
-        assert lr == lm, f"{lr} records vs {lm} molecules"
-        filtered_recs_and_mols = [
-            (r, m)
-            for r, m in zip(
-                involved_records[target], involved_molecules[target]
-            )
-            if r.keywords.dihedrals[0]
-            in m.chemical_environment_matches(smirks)
-            or r.keywords.dihedrals[0][::-1]
-            in m.chemical_environment_matches(smirks)
-        ]
-        for i, (r, m) in enumerate(filtered_recs_and_mols):
-            filename = f"plot{i:02d}.png"
-            plot_td_record(r, m, f"output/{filename}", smirks)
+        for i, (r, m) in enumerate(zip(records, molecules)):
+            # filter by ensuring the record's dihedrals are actually a match to
+            # the smirks of interest
+            assert len(r.keywords.dihedrals) == 1, "not sure what to do here"
+            d = r.keywords.dihedrals[0]
+            e = m.chemical_environment_matches(smirks)
+            if d in e or d[::-1] in e:
+                # draw the molecule
+                filename = f"mol{i:02d}.png"
+                draw_rdkit(m, f"output/{filename}", smirks)
+                out.add_image(filename, caption=m.to_smiles())
+                # draw the plot
+                filename = f"plot{i:02d}.png"
+                plot_td_record(r, m, f"output/{filename}", smirks)
+                out.add_image(filename, caption=m.to_smiles())
+    else:
+        # just the molecule
+        for i, m in enumerate(molecules):
+            filename = f"mol{i:02d}.png"
+            draw_rdkit(m, f"output/{filename}", smirks)
             out.add_image(filename, caption=m.to_smiles())
 
+    timer.say("writing output")
     out.to_file("output/report.tex")
 
 
