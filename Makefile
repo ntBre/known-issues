@@ -1,4 +1,4 @@
-.PHONY: all help
+.PHONY: all help script
 
 all: output/report.pdf
 
@@ -35,6 +35,8 @@ output/report.tex: main.py latex.py
 	rm -rf output
 	mkdir -p output
 	python main.py --target $(TARGET) $(flags)
+
+script: output/report.tex
 
 # rows and columns in montage
 LAYOUT ?= +5+3
