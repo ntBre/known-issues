@@ -46,3 +46,13 @@ output/plots.png: $(wildcard output/plot*.png)
 help:
 	@echo Usage:
 	@echo 'make TARGET=TORSION_TARGET [FF=forcefield.offxml] [DATA="ds1,ds2,dsn"] [PLOT=1]'
+
+output/montage.png: output/report.pdf Makefile
+	pdfseparate $< 'output/page%02d.pdf'
+	for page in output/page*.pdf; do \
+		b=$$(basename $$page); \
+		name=output/$${b%.pdf}.png; \
+		convert -density 300 -trim $$page -quality 100 $$name; \
+	done
+	size=$$(file output/page01.png | sed -En 's/.* ([0-9]+) x ([0-9]+),.*/\1x\2/p'); \
+	montage output/page*.png -tile 4x -geometry $$size+100+100\> $@
