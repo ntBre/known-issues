@@ -18,6 +18,7 @@ from rdkit.Chem.Draw import MolsToGridImage, rdDepictor, rdMolDraw2D
 from rdkit.Chem.rdmolops import RemoveHs
 
 from latex import Latex
+from timer import Timer
 
 logging.getLogger("openff").setLevel(logging.ERROR)
 
@@ -92,7 +93,7 @@ def load_dataset(
 
 
 def plot_td_record(
-    record: TorsionDriveRecord, molecule: Molecule, filename: str
+    record: TorsionDriveRecord, molecule: Molecule, filename: str, smirks: str
 ):
     """Plot a torsion drive record.
 
@@ -111,6 +112,8 @@ def plot_td_record(
     energy -= min(energy)
 
     # get smiles and torsion specification
+    print("env = ", molecule.chemical_environment_matches(smirks))
+    print("dihedrals =  ", record.keywords.dihedrals[0])
     dihedrals = record.keywords.dihedrals[0]
     rdmol = molecule.to_rdkit()
     rwmol = Chem.RWMol(rdmol)
@@ -130,6 +133,7 @@ def plot_td_record(
     ax.set_title(f"{torsion_smirks}")
     plt.tight_layout()
     plt.savefig(filename)
+    plt.close()
 
 
 @click.command()
@@ -144,13 +148,10 @@ def plot_td_record(
 )
 def check_coverage(target, force_field, datasets, plot_torsions):
     coverage = []
-    # set of molecules involved in the target torsion
-    involved_molecules = defaultdict(set)
-    # list of records involved in the target torsion
+    # list of molecules involved in the target torsion
+    involved_molecules = defaultdict(list)
+    # list of records involved in the target torsion, parallel to above
     involved_records = defaultdict(list)
-    # records are not hashable, so to avoid duplicates in the list above, keep
-    # track of seen ids separately
-    involved_record_ids = defaultdict(set)
 
     ff = ForceField(force_field, allow_cosmetic_attributes=True)
     smirks = (
@@ -158,15 +159,16 @@ def check_coverage(target, force_field, datasets, plot_torsions):
         .get_parameter(dict(id=target))[0]
         .smirks
     )
+    timer = Timer()
     for dataset in datasets:
-        print("loading forcefield and dataset")
+        timer.say("loading dataset")
         data = load_dataset(dataset)
 
         if plot_torsions:
-            print("converting dataset to records and molecules")
+            timer.say("converting dataset to records and molecules")
             molecules = data.to_records()
         else:
-            print("converting dataset to molecules")
+            timer.say("converting dataset to molecules")
             # flatten values
             data = [v for value in data.entries.values() for v in value]
             molecules = [
@@ -183,20 +185,17 @@ def check_coverage(target, force_field, datasets, plot_torsions):
 
         h = ff.get_parameter_handler("ProperTorsions")
 
-        print("labeling torsions")
+        timer.say("labeling torsions")
         results = defaultdict(int)
         for record, molecule in molecules:
             all_labels = ff.label_molecules(molecule.to_topology())[0]
             torsions = all_labels["ProperTorsions"]
-            for torsion in torsions.values():
-                results[torsion.id] += 1
-                involved_molecules[torsion.id].add(molecule)
-                if (
-                    record is not None
-                    and record.id not in involved_record_ids[torsion.id]
-                ):
+            env = molecule.chemical_environment_matches(smirks)
+            for atoms_involved, torsion in torsions.items():
+                if atoms_involved in env or atoms_involved[::-1] in env:
+                    results[torsion.id] += 1
+                    involved_molecules[torsion.id].append(molecule)
                     involved_records[torsion.id].append(record)
-                    involved_record_ids[torsion.id].add(record.id)
 
         smirk = h.get_parameter(dict(id=target))[0].smirks
         coverage.append(f"{target:5}{results[target]:5}   {smirk}")
@@ -213,11 +212,22 @@ def check_coverage(target, force_field, datasets, plot_torsions):
         out.add_image(filename, caption=m.to_smiles())
 
     if plot_torsions:
-        for i, (r, m) in enumerate(
-            zip(involved_records[target], involved_molecules[target])
-        ):
+        lr = len(involved_records[target])
+        lm = len(involved_molecules[target])
+        assert lr == lm, f"{lr} records vs {lm} molecules"
+        filtered_recs_and_mols = [
+            (r, m)
+            for r, m in zip(
+                involved_records[target], involved_molecules[target]
+            )
+            if r.keywords.dihedrals[0]
+            in m.chemical_environment_matches(smirks)
+            or r.keywords.dihedrals[0][::-1]
+            in m.chemical_environment_matches(smirks)
+        ]
+        for i, (r, m) in enumerate(filtered_recs_and_mols):
             filename = f"plot{i:02d}.png"
-            plot_td_record(r, m, f"output/{filename}")
+            plot_td_record(r, m, f"output/{filename}", smirks)
             out.add_image(filename, caption=m.to_smiles())
 
     out.to_file("output/report.tex")
