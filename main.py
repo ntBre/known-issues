@@ -88,7 +88,7 @@ def load_dataset(
         case "torsion":
             return TorsionDriveResultCollection.parse_file(dataset)
         case "optimization":
-            return OptimizationResultCollection.parse_raw(dataset)
+            return OptimizationResultCollection.parse_file(dataset)
         case t:
             raise TypeError(f"Unknown result collection type: {t}")
 
