@@ -16,6 +16,7 @@ from qcportal.models.torsiondrive import TorsionDriveRecord
 from rdkit import Chem
 from rdkit.Chem.Draw import MolsToGridImage, rdDepictor, rdMolDraw2D
 from rdkit.Chem.rdmolops import RemoveHs
+from tqdm import tqdm
 
 from latex import Latex
 from timer import Timer
@@ -166,7 +167,6 @@ def check_coverage(target, force_field, datasets, plot_torsions):
             timer.say("converting dataset to records and molecules")
             molecules = data.to_records()
         else:
-            timer.say("converting dataset to molecules")
             # flatten values
             data = [v for value in data.entries.values() for v in value]
             molecules = [
@@ -178,14 +178,15 @@ def check_coverage(target, force_field, datasets, plot_torsions):
                         r.cmiles, allow_undefined_stereo=True
                     ),
                 )
-                for r in data
+                for r in tqdm(data, desc="Converting to molecules")
             ]
 
         h = ff.get_parameter_handler("ProperTorsions")
 
-        timer.say("labeling torsions")
         results = defaultdict(int)
-        for record, molecule in molecules:
+        for record, molecule in tqdm(
+            molecules, desc="Labeling torsions", total=len(molecules)
+        ):
             all_labels = ff.label_molecules(molecule.to_topology())[0]
             torsions = all_labels["ProperTorsions"]
             env = molecule.chemical_environment_matches(smirks)
