@@ -24,7 +24,9 @@ from timer import Timer
 logging.getLogger("openff").setLevel(logging.ERROR)
 
 
-def draw_rdkit(mol: Molecule, filename, smirks, show_all_hydrogens=True):
+def draw_rdkit(
+    mol: Molecule, filename, smirks, show_all_hydrogens=True, max_matches=None
+):
     """Draw `mol` using rdkit and write the resulting PNG to `filename`.
 
     `smirks` is a target smirks to highlight in the resulting image.
@@ -42,6 +44,10 @@ def draw_rdkit(mol: Molecule, filename, smirks, show_all_hydrogens=True):
         rdDepictor.Compute2DCoords(rdmol)
         rdmol = rdMolDraw2D.PrepareMolForDrawing(rdmol)
         rdmols.append(rdmol)
+
+    if max_matches is not None:
+        rdmols = rdmols[:max_matches]
+        highlight_atom_lists = highlight_atom_lists[:max_matches]
 
     BASE = 450
     match len(rdmols):
